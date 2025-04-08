@@ -1,19 +1,7 @@
-function produceGold() {
-  game.gold = game.gold.add(game.goldPerClick);
-}
-
-function updateSmall() {
-  // Assure-toi que timeStopped est défini
-  if (typeof timeStopped === 'undefined') {
-    timeStopped = false;
+document.addEventListener("DOMContentLoaded", function() {
+  function produceGold() {
+    game.gold = game.gold.add(game.goldPerClick);
   }
-
-  if (timeStopped) {
-    // Code à exécuter lorsque timeStopped est vrai
-  } else {
-    // Code à exécuter lorsque timeStopped est faux
-  }
-}
 
   function buyMiner() {
     if (game.gold.gte(game.minerCost)) {
