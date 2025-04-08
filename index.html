@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <meta content="The Cactus Farm" property="og:title" />
-  <meta content="Only the realest harvest cacti for glory and profit 🌵💰" property="og:description" />
-  <meta content="https://matthieu56130.github.io/TheCactusFarm/" property="og:url" />
-  <meta content="https://matthieu56130.github.io/TheCactusFarm/images/cactuslogo.png" property="og:image" />
-  <meta content="#408000" data-react-helmet="true" name="theme-color" />
-  <meta name="color-scheme" content="light only">
-  <meta name="keywords" content="cactus, cactusfarm, incremental, idle, clicker, cactus, cacti">
-  <title>The Cactus Farm</title>
-  <link rel="icon" type="image/x-icon" href="https://matthieu56130.github.io/TheCactusFarm/images/cactuslogo.png">
-  <link rel="stylesheet" href="98.css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
 <body onclick="updateSmall()">
   <!--Main tab-->
   <div class="window box" id="tab_main" style="width: 350px; height: 300px">
@@ -39,76 +20,16 @@
       <button id="unlockBloodButton" onclick="unlockBlood()">&#8202;&#8202;UNLOCK BLOOD<br>Costs e5.00e14 gold</button>
       <button id="moreDarkMagicUpgradesButton" style="background-color: #74a; height: 34px; display: none" onclick="moreDarkMagicUpgrades()">Unlock more dark magic upgrades<br>Costs e6.66e16 gold</button>
       <button id="unlockVoidMagicUpgradesButton" style="background-color: #222; color: white; height: 58px; display: none" onclick="unlockVoidMagicUpgrades()">&#8202;&#8202;Unlock <a style="color: #dbf; text-shadow: 1px 1px #648">Void Magic Upgrades</a><br>You are mastering control of your magic powers.<br>Costs e1.00e100 gold and 100,000,000 holy fire</button>
-			<button id="unlockPlanetsButton" style="background-color: black; background-image: url('img/spaceBack.png'); color: #b8f; height: 34px; width: 200px; display: none" onclick="unlockPlanets()">&#8202;&#8202;Unlock <b>Planets</b><br>Costs e1.00e400 gold</button>
-			<button id="omniverseWarning" style="background-color: black; color: #b0f; text-shadow: 0 1px #00f; height: 46px; display: none">&#8202;&#8202;Something unseeable looms over you. A powerful presence has taken<br>&#8202;&#8202;an interest in your actions. Perhaps it may show itself if you acquire more gold.</button>
-			<button id="unlockEssencesButton" style="background-color: white; color: black; height: 34px; width: 250px; display: none" onclick="unlockEssences()">&#8202;&#8202;Unlock the <b>Light and Dark Essences</b><br>&#8202;&#8202;Costs ee500,000 gold</button>
-			<button id="unlockDeathEssenceButton" style="background-color: #f88; color: black; height: 34px; width: 250px; display: none" onclick="unlockDeathEssence()">Unlock <b>Death Essence</b><br>Costs ee1,500,000 gold</button>
-			<button id="unlockNuclearPastaButton" style="background-color: #fd8; color: #630; height: 34px; display: none" onclick="unlockNuclearPasta()">&#8202;&#8202;Unlock <b>Nuclear Pasta</b><br>Costs ee3,500,000 gold</button>
-			<button id="unlockFinalityEssenceButton" style="background-color: #b8f; color: black; height: 34px; width: 250px; display: none" onclick="unlockFinalityEssence()">&#8202;&#8202;Unlock <b>Finality Essence</b><br>Costs ee150,000,000 gold</button>
-			<button id="unlockFinalityCubesButton" style="background-color: black; color: #f0f; text-shadow: 1px 1px #4300a4; height: 34px; width: 250px; display: none" onclick="unlockFinalityCubes()">Unlock <b>Finality Cubes</b><br>&#8202;&#8202;Costs ee7.50e9 gold</button>
-			<button id="bigFinishButton" style="background-color: black; color: white; height: 34px; width: 250px; display: none" onclick="bigFinishCheck()">&#8202;&#8202;Become the omniverse.<br>Costs ee1.00e12 gold</button>
+      <button id="unlockPlanetsButton" style="background-color: black; background-image: url('img/spaceBack.png'); color: #b8f; height: 34px; width: 200px; display: none" onclick="unlockPlanets()">&#8202;&#8202;Unlock <b>Planets</b><br>Costs e1.00e400 gold</button>
+      <button id="omniverseWarning" style="background-color: black; color: #b0f; text-shadow: 0 1px #00f; height: 46px; display: none">&#8202;&#8202;Something unseeable looms over you. A powerful presence has taken<br>&#8202;&#8202;an interest in your actions. Perhaps it may show itself if you acquire more gold.</button>
+      <button id="unlockEssencesButton" style="background-color: white; color: black; height: 34px; width: 250px; display: none" onclick="unlockEssences()">&#8202;&#8202;Unlock the <b>Light and Dark Essences</b><br>&#8202;&#8202;Costs ee500,000 gold</button>
+      <button id="unlockDeathEssenceButton" style="background-color: #f88; color: black; height: 34px; width: 250px; display: none" onclick="unlockDeathEssence()">Unlock <b>Death Essence</b><br>Costs ee1,500,000 gold</button>
+      <button id="unlockNuclearPastaButton" style="background-color: #fd8; color: #630; height: 34px; display: none" onclick="unlockNuclearPasta()">&#8202;&#8202;Unlock <b>Nuclear Pasta</b><br>Costs ee3,500,000 gold</button>
+      <button id="unlockFinalityEssenceButton" style="background-color: #b8f; color: black; height: 34px; width: 250px; display: none" onclick="unlockFinalityEssence()">&#8202;&#8202;Unlock <b>Finality Essence</b><br>Costs ee150,000,000 gold</button>
+      <button id="unlockFinalityCubesButton" style="background-color: black; color: #f0f; text-shadow: 1px 1px #4300a4; height: 34px; width: 250px; display: none" onclick="unlockFinalityCubes()">Unlock <b>Finality Cubes</b><br>&#8202;&#8202;Costs ee7.50e9 gold</button>
+      <button id="bigFinishButton" style="background-color: black; color: white; height: 34px; width: 250px; display: none" onclick="bigFinishCheck()">&#8202;&#8202;Become the omniverse.<br>Costs ee1.00e12 gold</button>
     </div>
   </div>
-
-  <!--Settings-->
-  <div class="window box"
-    style="width: 150px; top: 55px; left: 5px; transform: none; padding-bottom: 8px; z-index: 1; display: none;">
-    <div class="title-bar" style="background-image: linear-gradient(90deg,grey,#b5b5b5);">
-      <div class="title-bar-text">Settings</div>
-      <div class="title-bar-controls">
-        <button aria-label="Close" style="background-image: url('img/close.svg'); background-repeat: no-repeat; background-position: 3px 3px" onclick="changeTab(0)"></button>
-      </div>
-    </div>
-    <div class="window-body">
-      <button style="width: 142px; margin-top: 4px" onclick="save()">&#8202;&#8202;Manual save</button><br>
-      <button style="width: 142px; background-color: #daa" onclick="hardReset()">&#8202;&#8202;Hard reset</button>
-      <hr>
-      <button style="min-width: 68px" onclick="exportGame()">&#8202;&#8202;Export</button>
-      <button style="min-width: 68px" onclick="importGame()">Import</button><br>
-      <input id="exportField" style="width: 142px; margin-left: 4px; margin-bottom: 4px" type="text" placeholder="paste import string here"></input>
-      <hr>
-      <button id="backgroundPatternButton" style="width: 142px"
-        onclick="changeBackgroundPattern()">&#8202;&#8202;Background pattern: On</button><br>
-      <div id="confirmationToggleBox" style="display: none;">
-        <hr>
-        <center>
-          <p style="margin-top: 2px; margin-bottom: 3px">&#8202;&#8202;Confirmation popups</p>
-          <div class="confirmationToggle" style="background-image: url('img/iconMagic.png')"
-            onclick="toggleConfirmations(1)"></div>
-          <div class="confirmationToggle" style="background-image: url('img/iconSigil1.png'); display: none;"
-            onclick="toggleConfirmations(2)"></div>
-          <div class="confirmationToggle" style="background-image: url('img/iconPolyhedronSmall1.png'); display: none;"
-            onclick="toggleConfirmations(3)"></div>
-        </center>
-      </div>
-    </div>
-  </div>
-
-  <!--List o' scripts-->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="scripts/break_eternity.js"></script>
-  <script src="scripts/Mousetrap.js"></script>
-  <script src="scripts/constants.js"></script>
-  <script src="scripts/script.js"></script>
   <script src="scripts/gold.js"></script>
-  <script src="scripts/dragon.js"></script>
-  <script src="scripts/fire.js"></script>
-  <script src="scripts/alchemy.js"></script>
-  <script src="scripts/magic.js"></script>
-  <script src="scripts/magicChallenges.js"></script>
-  <script src="scripts/sigils.js"></script>
-  <script src="scripts/knowledge.js"></script>
-  <script src="scripts/blood.js"></script>
-  <script src="scripts/holyPolyhedrons.js"></script>
-	<script src="scripts/planets.js"></script>
-	<script src="scripts/plague.js"></script>
-	<script src="scripts/essence.js"></script>
-	<script src="scripts/nuclearPasta.js"></script>
-  <script src="scripts/achievements.js"></script>
-  <script src="scripts/hotkeys.js"></script>
-  <script src="scripts/render.js"></script>
-  <script>load(); if (!isDevVersion) setAutoSave()</script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"92d1b7ac8d39d0ac","version":"2025.3.0","r":1,"token":"ac314df73dd444ee90c7914d7cfbc9b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
 </body>
-
 </html>
