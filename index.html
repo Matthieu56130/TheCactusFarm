@@ -13,14 +13,72 @@
   <meta name="color-scheme" content="light only">
   <meta name="keywords" content="cactus, cactusfarm, incremental, idle, clicker, cactus, cacti">
   <title>The Cactus Farm</title>
-  <!-- Mise à jour du lien de l'icône -->
   <link rel="icon" type="image/x-icon" href="https://matthieu56130.github.io/TheCactusFarm/images/cactuslogo.png">
   <link rel="stylesheet" href="98.css" />
   <link href="style.css" rel="stylesheet" type="text/css" /> 
 </head>
 
-<body>
-  <!-- Contenu du jeu ici -->
-</body>
+<body onclick="updateSmall()">
+  <div class="window box" id="tab_main" style="width: 350px; height: 300px">
+    <div class="title-bar">
+      <div class="title-bar-text">The Cactus Farm</div>
+    </div>
+    <div class="window-body">
+      <p class="titleText">You have <a id="cactus">0</a> cacti</p>
+      <p style="margin-top: 4px">(<a id="cactusPerSecond">0</a>/s, <a id="cactusPerClick">0</a>/click)</p>
+      <button style="min-width: 74px" onclick="produceCactus()">Harvest cactus</button><br>
+      <button id="buyFarmerButton" style="height: 34px; text-align: left" onclick="buyFarmer()">Hire a cactus farmer<br>Costs <a id="farmerCost">20</a> cacti</button>
+      <button style="height: 34px; min-width: 49px" onclick="buyMaxFarmers()">Buy<br>max farmers</button><br>
+      <button id="farmerAutoBuyMaxButton" style="display: none" onclick="farmerAutoBuyMax()">Auto buy max: On</button><br><br>
+      <button id="unlockCactusKingButton" style="height: 34px" onclick="unlockCactusKing()">Get a Cactus King<br>Costs 200 cacti</button>
+      <button id="unlockCactusAlchemyButton" style="height: 34px; display: none" onclick="unlockCactusAlchemy()">Unlock Cactus Alchemy<br>Costs 20,000,000 cacti</button>
+      <button id="unlockMagicButton" style="height: 34px; display: none" onclick="unlockMagic()">Unlock <a style="color: #707">Magic</a><br>Costs 1.00e15 cacti</button>
+      <button id="unlockMoreUpgradesButton" style="background-color: #95a; height: 46px; display: none;" onclick="unlockMoreUpgrades()">Unlock more upgrades<br>Costs 200,000,000 magic,<br>Requires 150,000 cactus flour</button>
+      <button id="unlockDarkMagicButton" style="height: 46px; display: none" onclick="unlockDarkMagic()">Unlock <a style="color: #404; text-shadow: 1px 1px #88f">Dark Magic Upgrades</a><br>You are gaining stronger control over your cactus powers.<br>Costs 1.00e1,000 cacti</button>
+      <button id="unlockBloodButton" onclick="unlockBlood()">&#8202;&#8202;UNLOCK BLOOD<br>Costs e5.00e14 cacti</button>
+      <button id="unlockMoreDarkMagicButton" style="background-color: #74a; height: 34px; display: none" onclick="unlockMoreDarkMagic()">Unlock more dark magic upgrades<br>Costs e6.66e16 cacti</button>
+      <button id="unlockVoidCactusButton" style="background-color: #222; color: white; height: 58px; display: none" onclick="unlockVoidCactus()">&#8202;&#8202;Unlock <a style="color: #dbf; text-shadow: 1px 1px #648">Void Cactus Upgrades</a><br>You are mastering control of your cactus powers.<br>Costs e1.00e100 cacti and 100,000,000 cactus essence</button>
+			<button id="unlockPlanetsButton" style="background-color: black; background-image: url('img/spaceBack.png'); color: #b8f; height: 34px; width: 200px; display: none" onclick="unlockPlanets()">&#8202;&#8202;Unlock <b>Planets</b><br>Costs e1.00e400 cacti</button>
+			<button id="omniverseWarning" style="background-color: black; color: #b0f; text-shadow: 0 1px #00f; height: 46px; display: none">&#8202;&#8202;Something unseeable looms over you. A powerful presence has taken<br>&#8202;&#8202;an interest in your actions. Perhaps it may show itself if you acquire more cacti.</button>
+			<button id="unlockEssencesButton" style="background-color: white; color: black; height: 34px; width: 250px; display: none" onclick="unlockEssences()">&#8202;&#8202;Unlock the <b>Light and Dark Cactus Essences</b><br>&#8202;&#8202;Costs ee500,000 cacti</button>
+			<button id="unlockDeathEssenceButton" style="background-color: #f88; color: black; height: 34px; width: 250px; display: none" onclick="unlockDeathEssence()">Unlock <b>Death Cactus Essence</b><br>Costs ee1,500,000 cacti</button>
+			<button id="unlockNuclearPastaButton" style="background-color: #fd8; color: #630; height: 34px; display: none" onclick="unlockNuclearPasta()">&#8202;&#8202;Unlock <b>Nuclear Cactus</b><br>Costs ee3,500,000 cacti</button>
+			<button id="unlockFinalityEssenceButton" style="background-color: #b8f; color: black; height: 34px; width: 250px; display: none" onclick="unlockFinalityEssence()">&#8202;&#8202;Unlock <b>Finality Cactus Essence</b><br>Costs ee150,000,000 cacti</button>
+			<button id="unlockFinalityCubesButton" style="background-color: black; color: #f0f; text-shadow: 1px 1px #4300a4; height: 34px; width: 250px; display: none" onclick="unlockFinalityCubes()">Unlock <b>Finality Cubes</b><br>&#8202;&#8202;Costs ee7.50e9 cacti</button>
+			<button id="bigFinishButton" style="background-color: black; color: white; height: 34px; width: 250px; display: none" onclick="bigFinishCheck()">&#8202;&#8202;Become the omniverse.<br>Costs ee1.00e12 cacti</button>
+    </div>
+  </div>
 
+<!-- List of scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/break_eternity.js"></script>
+<script src="scripts/Mousetrap.js"></script>
+<script src="scripts/constants.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/gold.js"></script>
+<script src="scripts/dragon.js"></script>
+<script src="scripts/fire.js"></script>
+<script src="scripts/alchemy.js"></script>
+<script src="scripts/magic.js"></script>
+<script src="scripts/magicChallenges.js"></script>
+<script src="scripts/sigils.js"></script>
+<script src="scripts/knowledge.js"></script>
+<script src="scripts/blood.js"></script>
+<script src="scripts/holyPolyhedrons.js"></script>
+<script src="scripts/planets.js"></script>
+<script src="scripts/plague.js"></script>
+<script src="scripts/essence.js"></script>
+<script src="scripts/nuclearPasta.js"></script>
+<script src="scripts/achievements.js"></script>
+<script src="scripts/hotkeys.js"></script>
+<script src="scripts/render.js"></script>
+
+<script>
+  load();
+  if (!isDevVersion) setAutoSave();
+</script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"92d1b7ac8d39d0ac","version":"2025.3.0","r":1,"token":"ac314df73dd444ee90c7914d7cfbc9b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+
+</body>
 </html>
