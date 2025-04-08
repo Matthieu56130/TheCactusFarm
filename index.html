@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta content="The Cactus Farm" property="og:title" />
-  <meta content="Only the realest harvest cacti for glory and profit 🌵💰"
-    property="og:description" />
+  <meta content="Only the realest harvest cacti for glory and profit 🌵💰" property="og:description" />
   <meta content="https://matthieu56130.github.io/TheCactusFarm/" property="og:url" />
   <meta content="https://matthieu56130.github.io/TheCactusFarm/images/cactuslogo.png" property="og:image" />
   <meta content="#408000" data-react-helmet="true" name="theme-color" />
@@ -15,10 +14,11 @@
   <title>The Cactus Farm</title>
   <link rel="icon" type="image/x-icon" href="https://matthieu56130.github.io/TheCactusFarm/images/cactuslogo.png">
   <link rel="stylesheet" href="98.css" />
-  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body onclick="updateSmall()">
+  <!--Main tab-->
   <div class="window box" id="tab_main" style="width: 350px; height: 300px">
     <div class="title-bar">
       <div class="title-bar-text">The Cactus Farm</div>
@@ -49,36 +49,68 @@
     </div>
   </div>
 
-<!-- List of scripts -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="scripts/break_eternity.js"></script>
-<script src="scripts/Mousetrap.js"></script>
-<script src="scripts/constants.js"></script>
-<script src="scripts/script.js"></script>
-<script src="scripts/gold.js"></script>
-<script src="scripts/dragon.js"></script>
-<script src="scripts/fire.js"></script>
-<script src="scripts/alchemy.js"></script>
-<script src="scripts/magic.js"></script>
-<script src="scripts/magicChallenges.js"></script>
-<script src="scripts/sigils.js"></script>
-<script src="scripts/knowledge.js"></script>
-<script src="scripts/blood.js"></script>
-<script src="scripts/holyPolyhedrons.js"></script>
-<script src="scripts/planets.js"></script>
-<script src="scripts/plague.js"></script>
-<script src="scripts/essence.js"></script>
-<script src="scripts/nuclearPasta.js"></script>
-<script src="scripts/achievements.js"></script>
-<script src="scripts/hotkeys.js"></script>
-<script src="scripts/render.js"></script>
+  <!--Settings-->
+  <div class="window box"
+    style="width: 150px; top: 55px; left: 5px; transform: none; padding-bottom: 8px; z-index: 1; display: none;">
+    <div class="title-bar" style="background-image: linear-gradient(90deg,grey,#b5b5b5);">
+      <div class="title-bar-text">Settings</div>
+      <div class="title-bar-controls">
+        <button aria-label="Close" style="background-image: url('img/close.svg'); background-repeat: no-repeat; background-position: 3px 3px" onclick="changeTab(0)"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <button style="width: 142px; margin-top: 4px" onclick="save()">&#8202;&#8202;Manual save</button><br>
+      <button style="width: 142px; background-color: #daa" onclick="hardReset()">&#8202;&#8202;Hard reset</button>
+      <hr>
+      <button style="min-width: 68px" onclick="exportGame()">&#8202;&#8202;Export</button>
+      <button style="min-width: 68px" onclick="importGame()">Import</button><br>
+      <input id="exportField" style="width: 142px; margin-left: 4px; margin-bottom: 4px" type="text" placeholder="paste import string here"></input>
+      <hr>
+      <button id="backgroundPatternButton" style="width: 142px" onclick="changeBackgroundPattern()">&#8202;&#8202;Background pattern: On</button><br>
+      <div id="confirmationToggleBox" style="display: none;">
+        <hr>
+        <center>
+          <p style="margin-top: 2px; margin-bottom: 3px">&#8202;&#8202;Confirmation popups</p>
+          <div class="confirmationToggle" style="background-image: url('img/iconMagic.png')" onclick="toggleConfirmations(1)"></div>
+          <div class="confirmationToggle" style="background-image: url('img/iconSigil1.png'); display: none;" onclick="toggleConfirmations(2)"></div>
+          <div class="confirmationToggle" style="background-image: url('img/iconPolyhedronSmall1.png'); display: none;" onclick="toggleConfirmations(3)"></div>
+        </center>
+      </div>
+    </div>
+  </div>
 
-<script>
-  load();
-  if (!isDevVersion) setAutoSave();
-</script>
+  <!-- List of scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="scripts/break_eternity.js"></script>
+  <script src="scripts/Mousetrap.js"></script>
+  <script src="scripts/constants.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/gold.js"></script>
+  <script src="scripts/dragon.js"></script>
+  <script src="scripts/fire.js"></script>
+  <script src="scripts/alchemy.js"></script>
+  <script src="scripts/magic.js"></script>
+  <script src="scripts/magicChallenges.js"></script>
+  <script src="scripts/sigils.js"></script>
+  <script src="scripts/knowledge.js"></script>
+  <script src="scripts/blood.js"></script>
+  <script src="scripts/holyPolyhedrons.js"></script>
+  <script src="scripts/planets.js"></script>
+  <script src="scripts/plague.js"></script>
+  <script src="scripts/essence.js"></script>
+  <script src="scripts/nuclearPasta.js"></script>
+  <script src="scripts/achievements.js"></script>
+  <script src="scripts/hotkeys.js"></script>
+  <script src="scripts/render.js"></script>
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"92d1b7ac8d39d0ac","version":"2025.3.0","r":1,"token":"ac314df73dd444ee90c7914d7cfbc9b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+  <!-- Automatically call the load and auto-save functions -->
+  <script>
+    load();
+    if (!isDevVersion) setAutoSave();
+  </script>
 
+  <!-- Beacon for analytics or other services -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"92d1b7ac8d39d0ac","version":"2025.3.0","r":1,"token":"ac314df73dd444ee90c7914d7cfbc9b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
 </body>
+
 </html>
