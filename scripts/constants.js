@@ -50,9 +50,9 @@ const nuclearPastaUpgradeCosts = ["ee7.5e6", "ee1.2e8", "ee2.5e8", "ee7.5e8"]
 
 const achievementNames = [
   //Gold
-  ["Starting strong", "Growing stronger", "The heap", "Motherlode", "BEZOS BEZOS BEZOS", "Unending mound of cash", "Multiversal", "Endless realm of coins", "Loaded", "Mega-loaded (???)", "Sbiisics", "On my dime!"],
+  ["Starting strong", "Growing stronger", "The heap", "Motherlode", "Cactus wizard", "Unending mound of cactus", "Multiversal", "Endless realm of cactus", "Loaded", "Mega-loaded (???)", "No way", "The original cacto!"],
   //Fire
-  ["Spicy", "Burning hands", "The great fire", "Towering inferno", "Hell pit", "Carolina reapers", "Tartarus", "Pandemonium", "Infernal overlord", "Unfortunate events", "Global warming", "The end of everything"],
+  ["Spicy", "Pierced hands", "The great thorn", "The infernal thorn", "Thorn pit", "Cacto reapers", "Supplice of thorn", "World of thorn", "Infernal world of thorn", "Unfortunate events", "Thorn warming", "The end of everything"],
   //Platinum
   ["Alchemagoria", "Jeweller", "Putting in the work", "Magnum opus", "Simple chemistry", "Mirror polish", "Silver skyscrapers", "Advanced chemistry", "God of transmutation", "Platisynthesis", "Mystical barista", "Completing the work"],
   //Magic
