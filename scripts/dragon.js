@@ -22,7 +22,7 @@ function upgradeDragon(x) {
     
     // Ajout des console.log pour déboguer
     console.log("Before updating title: ", document.getElementById("dragonTitle").innerHTML);
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult cactus king";
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'></a><br>Adult cactus king";
     console.log("After updating title: ", document.getElementById("dragonTitle").innerHTML);
     
     console.log("Before updating info: ", document.getElementById("dragonInfo").innerHTML);
