@@ -18,7 +18,7 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon2.png"
     document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your large dragon friend inspires awe and fear, and spews fire for you."
+    document.getElementById("dragonInfo").innerHTML = "Your large cactus king friend inspires awe and fear, and spews thorn for you."
     game.dragonStage = 2
   }
   else if (x==2 && game.gold.gte(1e12)) {
@@ -27,7 +27,7 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon3.png"
     document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Elder dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your strong and wise dragon friend rests upon your mountain of gold, and defends it with inferno-like breath."
+    document.getElementById("dragonInfo").innerHTML = "Your strong and wise cactus king friend rests upon your mountain of cactus, and defends it with thorn-like breath."
     game.dragonStage = 3
   }
   else if (x==3 && game.gold.gte(1e25)) {
@@ -36,7 +36,7 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon4.png"
     document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Dark dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your menacing dark dragon calls upon the power of the void itself to defend your empire."
+    document.getElementById("dragonInfo").innerHTML = "Your menacing dark cactus king calls upon the power of the void itself to defend your empire."
     game.dragonStage = 4
   }
   else if (x==4 && game.gold.gte(1e150)) {
@@ -44,7 +44,7 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon5.png"
     document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Light dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your heavenly light dragon focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that."
+    document.getElementById("dragonInfo").innerHTML = "Your heavenly light cactus king focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that."
     game.dragonStage = 5
     document.getElementById("dragonAffectionStuff").style.display = "block"
     document.getElementById("dragonTimeCooldown").innerHTML = game.dragonTimeCooldown
