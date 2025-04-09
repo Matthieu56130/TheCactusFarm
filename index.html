@@ -143,34 +143,34 @@
         <input id="dragonNameBox" style="width: 200px; background-color: #cbc0b8; text-align: center; font-weight: bold" placeholder="Set your cactus king's name here!" onchange="changeDragonName()"></input>
       </center>
       <p id="dragonInfo" style="margin-right: 4px">Your cactus king produces thorn for you. He loves to play in your cactus fields.</p>
-      <p style="color: #630">Your fire is multiplying miner production by <a id="fireGoldMultiplier">1.00</a></p>
-      <button id="buyFireUpgradesButton" style="height: 34px" onclick="buyFireUpgrades()">Unlock fire upgrades<br>Costs
+      <p style="color: #630">Your thorn is multiplying miner production by <a id="fireGoldMultiplier">1.00</a></p>
+      <button id="buyFireUpgradesButton" style="height: 34px" onclick="buyFireUpgrades()">Unlock thorn upgrades<br>Costs
         5,000 gold</button>
       <button class="upgradeDragonButton" style="height: 46px; display: none;" onclick="upgradeDragon(1)">Age your
-        dragon into an adult<br>Multiplies fire gain by 100<br>Costs 2,500,000 gold</button>
+        young cactus king into an adult<br>Multiplies thorn gain by 100<br>Costs 2,500,000 gold</button>
       <button class="upgradeDragonButton" style="height: 46px; display: none;" onclick="upgradeDragon(2)">Age your
-        dragon into an elder<br>Multiplies fire gain by 100<br>Costs 1.00e12 gold</button>
+        dragon into an elder<br>Multiplies thorn gain by 100<br>Costs 1.00e12 gold</button>
       <button class="upgradeDragonButton" style="height: 46px; display: none;" onclick="upgradeDragon(3)">Corrupt your
-        dragon with the power of darkness<br>Multiplies fire gain by 10,000<br>Costs 1.00e25 gold</button>
+       cactus king with the power of darkness<br>Multiplies thorn gain by 10,000<br>Costs 1.00e25 gold</button>
       <button class="upgradeDragonButton" style="height: 46px; display: none;" onclick="upgradeDragon(4)">Infuse your
-        dragon with the power of light<br>Multiplies fire gain by 10,000,000<br>Costs 1.00e150 gold</button>
-      <button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #444; color: #bbe" onclick="upgradeDragon(5)">Enhance your dragon with incomprehensible machinery<br>&#8202;&#8202;Multiplies blue fire gain by 100<br>Costs e1.50e11 gold</button>
-      <button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #ffd; color: #08f" onclick="upgradeDragon(6)">Ascend your dragon with the power of the heavens themselves!<br>Multiplies blue fire gain by 1.00e50<br>&#8202;&#8202;Costs e1.00e55 gold</button>
-      <button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #222; color: #b8f" onclick="upgradeDragon(7)">Fuse your dragon with versions of itself from other dimensions<br>Multiplies holy fire gain by 1.00e10<br>Costs e1.00e200 gold</button>
-			<button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #040; color: #8f8" onclick="upgradeDragon(8)">Infuse your dragon with the cosmic plague and gain corrupted power<br>Multiplies cosmic plague gain by 100<br>&#8202;&#8202;Costs ee35,000 gold</button>
-			<button class="upgradeDragonButton" style="height: 46px; display: none; background-color: white; color: black" onclick="upgradeDragon(9)">Infuse your dragon with the essences of light, dark and death<br>Multiplies light/dark essence gain by 1,000<br>&#8202;&#8202;Costs ee1,750,000 gold</button>
-			<button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #80f; color: #9ff; text-shadow: 1px 1px #44f" onclick="upgradeDragon(10)">Infuse your dragon with the essence of finality<br>Multiplies death and finality essence gain by 100<br>&#8202;&#8202;Costs ee1.50e9 gold</button>
+        cactus king with the power of light<br>Multiplies thorn gain by 10,000,000<br>Costs 1.00e150 gold</button>
+      <button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #444; color: #bbe" onclick="upgradeDragon(5)">Enhance your cactus king with incomprehensible machinery<br>&#8202;&#8202;Multiplies blue thorn gain by 100<br>Costs e1.50e11 gold</button>
+      <button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #ffd; color: #08f" onclick="upgradeDragon(6)">Ascend your cactus king with the power of the heavens themselves!<br>Multiplies blue thorn gain by 1.00e50<br>&#8202;&#8202;Costs e1.00e55 gold</button>
+      <button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #222; color: #b8f" onclick="upgradeDragon(7)">Fuse your cactus king with versions of itself from other dimensions<br>Multiplies holy thorn gain by 1.00e10<br>Costs e1.00e200 gold</button>
+			<button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #040; color: #8f8" onclick="upgradeDragon(8)">Infuse your cactus king with the cosmic plague and gain corrupted power<br>Multiplies cosmic plague gain by 100<br>&#8202;&#8202;Costs ee35,000 gold</button>
+			<button class="upgradeDragonButton" style="height: 46px; display: none; background-color: white; color: black" onclick="upgradeDragon(9)">Infuse your cactus king with the essences of light, dark and death<br>Multiplies light/dark essence gain by 1,000<br>&#8202;&#8202;Costs ee1,750,000 gold</button>
+			<button class="upgradeDragonButton" style="height: 46px; display: none; background-color: #80f; color: #9ff; text-shadow: 1px 1px #44f" onclick="upgradeDragon(10)">Infuse your cactus king with the essence of finality<br>Multiplies death and finality essence gain by 100<br>&#8202;&#8202;Costs ee1.50e9 gold</button>
       <div id="dragonAffectionStuff" style="display: none">
         <hr>
-        <p>Your dragon is seeking affection!<br>(You cannot do anything with your dragon while inside challenges)</p><br>
-        <button id="dragonSpendTimeButton" onclick="dragonSpendTime()"><b>Spend time with your dragon</b> (<a id="dragonTimeCooldown">0</a>)<br>You are unable to enter challenges for the next 30 seconds</button>
-        <p style="margin-top: 3px">You have spent time with your dragon <a id="dragonTimeSpent">0</a> times, increasing gold gain by ^<a id="dragonTimeEffect" style="color: #660">1.000</a><a id="dragonTimeEffectCap"></a></p>
-        <button id="dragonFeedButton" onclick="dragonFeed()"><b>Feed your dragon</b><br>Turns all your score and magifolds into dragon food<br>Next feed requires <a id="dragonFeedCost">100,000,000</a> magifolds</button>
-        <p style="margin-top: 3px">You have fed your dragon <a id="dragonFood">0</a> times, increasing fire gain by ^<a id="dragonFoodEffect" style="color: #630">1.000</a></p>
+        <p>Your cactus king is seeking affection!<br>(You cannot do anything with your cactus king while inside challenges)</p><br>
+        <button id="dragonSpendTimeButton" onclick="dragonSpendTime()"><b>Spend time with your cactus king</b> (<a id="dragonTimeCooldown">0</a>)<br>You are unable to enter challenges for the next 30 seconds</button>
+        <p style="margin-top: 3px">You have spent time with your cactus king <a id="dragonTimeSpent">0</a> times, increasing gold gain by ^<a id="dragonTimeEffect" style="color: #660">1.000</a><a id="dragonTimeEffectCap"></a></p>
+        <button id="dragonFeedButton" onclick="dragonFeed()"><b>Feed your cactus king</b><br>Turns all your score and magifolds into cactus king food<br>Next feed requires <a id="dragonFeedCost">100,000,000</a> magifolds</button>
+        <p style="margin-top: 3px">You have fed your cactus king <a id="dragonFood">0</a> times, increasing fire gain by ^<a id="dragonFoodEffect" style="color: #630">1.000</a></p>
       </div>
       <div id="dragonPetStuff" style="display: none">
-        <button id="dragonPetButton" onclick="dragonPet()"><b>Pet your dragon!</b><br>Why does this cost, you ask? Stop asking so many questions!<br>Next pet costs 250 <a id="dragonPetRequirement">cyan</a> sigils</button>
-        <p style="margin-top: 3px">You have petted your dragon <a id="dragonPets">0</a> times, multiplying sigil gain by <a id="dragonPetEffect" style="color: #603">1.000</a></p>
+        <button id="dragonPetButton" onclick="dragonPet()"><b>Pet your cactus king!</b><br>Why does this cost, you ask? Stop asking so many questions!<br>Next pet costs 250 <a id="dragonPetRequirement">cyan</a> sigils</button>
+        <p style="margin-top: 3px">You have petted your cactus king <a id="dragonPets">0</a> times, multiplying sigil gain by <a id="dragonPetEffect" style="color: #603">1.000</a></p>
       </div>
     </div>
   </div>
