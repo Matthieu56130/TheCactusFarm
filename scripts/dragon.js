@@ -17,7 +17,7 @@ function upgradeDragon(x) {
     document.getElementsByClassName("upgradeDragonButton")[0].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon2.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult dragon"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult cactus king"
     document.getElementById("dragonInfo").innerHTML = "Your large cactus king friend inspires awe and fear, and spews thorn for you."
     game.dragonStage = 2
   }
