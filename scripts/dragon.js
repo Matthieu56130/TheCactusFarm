@@ -11,16 +11,21 @@ function unlockDragon() {
 }
 
 //Handles buying new dragon stages
+
 function upgradeDragon(x) {
-  if (x==1 && game.gold.gte(2500000)) {
-    game.gold = game.gold.sub(2500000)
-    document.getElementsByClassName("upgradeDragonButton")[0].style.display = "none"
-    document.getElementsByClassName("upgradeDragonButton")[1].style.display = "block"
-    document.getElementById("dragonImg").src = "img/iconDragon2.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult cactus king"
-    document.getElementById("dragonInfo").innerHTML = "Your large cactus king friend inspires awe and fear, and spews thorn for you."
-    game.dragonStage = 2
-  }
+  if (x == 1 && game.gold.gte(2500000)) {
+    game.gold = game.gold.sub(2500000);
+    document.getElementsByClassName("upgradeDragonButton")[0].style.display = "none";
+    document.getElementsByClassName("upgradeDragonButton")[1].style.display = "block";
+    document.getElementById("dragonImg").src = "img/iconDragon2.png";
+    console.log("Before updating title: ", document.getElementById("dragonTitle").innerHTML);
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult cactus king";
+    console.log("After updating title: ", document.getElementById("dragonTitle").innerHTML);
+    console.log("Before updating info: ", document.getElementById("dragonInfo").innerHTML);
+    document.getElementById("dragonInfo").innerHTML = "Your large cactus king friend inspires awe and fear, and spews thorn for you.";
+    console.log("After updating info: ", document.getElementById("dragonInfo").innerHTML);
+    game.dragonStage = 2;
+  }
   else if (x==2 && game.gold.gte(1e12)) {
     game.gold = game.gold.sub(1e12)
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "none"
