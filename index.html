@@ -247,16 +247,16 @@
   <!--Magic tab-->
   <div class="window box" id="tab_magic" style="width: 350px; height: 245px; background-color: #b8b; display: none;">
     <div class="title-bar" style="background:linear-gradient(90deg,#408,#94d)">
-      <div class="title-bar-text">Magic</div>
+      <div class="title-bar-text">Dirtball</div>
     </div>
     <div class="window-body">
       <center>
-        <p class="titleText">You have <a id="magic">0</a> magic<a id="magicCap"></a></p>
+        <p class="titleText">You have <a id="magic">0</a> dirtball<a id="magicCap"></a></p>
         <button
           style="height: 34px; margin-top: 5px; background-color: #95a; background-image: url('img/magicBack.png')"
           onclick="magicCheck()">Reset all previous resources and upgrades<br>You will gain <a id="magicToGet"
-            style="color: #508">0</a> magic</button>
-        <p style="margin-top: 2px"><a id="nextMagic"></a>Your magic is multiplying your gold gain by <a
+            style="color: #508">0</a> dirtball</button>
+        <p style="margin-top: 2px"><a id="nextMagic"></a>Your dirtball is multiplying your gold gain by <a
             id="magicEffect">1</a><a id="magicEffectCap"></a></p>
       </center>
     </div>
@@ -265,50 +265,50 @@
   <!--Magic upgrades tab-->
   <div class="window box" id="tab_magicUpgrades" style="width: 350px; height: 350px; background-color: #b8b; display: none;">
     <div class="title-bar" style="background:linear-gradient(90deg,#408,#94d)">
-      <div class="title-bar-text">Magic upgrades</div>
+      <div class="title-bar-text">Dirtball upgrades</div>
     </div>
     <div class="window-body" style="display: grid; grid-template-columns: 1fr 1fr; justify-self: stretch;">
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(1)">Gold multiplies its own gain<br>Currently x<a
-          id="magicUpgrade1Effect">1.00</a><br>Costs 2 magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(2)">Increases magic gain by 50%<br>Costs 3
-        magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(3)">Multiply gold and fire gain by 55.5. Waow.<br>Costs 8
-        magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(4)">Magic multiplies its own gain<br>Currently x<a
-          id="magicUpgrade4Effect">1.00</a><br>Costs 12 magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(5)">Gold multiplies fire gain<br>Currently x<a
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(1)">Cacti multiplies its own gain<br>Currently x<a
+          id="magicUpgrade1Effect">1.00</a><br>Costs 2 dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(2)">Increases dirtball gain by 50%<br>Costs 3
+       dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(3)">Multiply cacti and thorn gain by 55.5. Waow.<br>Costs 8
+        dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(4)">Dirtball multiplies its own gain<br>Currently x<a
+          id="magicUpgrade4Effect">1.00</a><br>Costs 12 dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(5)">Cacti multiplies thorn gain<br>Currently x<a
           id="magicUpgrade5Effect">1.00</a><br>Costs 30
-        magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(6)">Miners increase gold/second<br>Currently x<a
-          id="magicUpgrade6Effect">1.00</a><br>Costs 100 magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(7)">Double magic gain. Simple.<br>Costs 300 magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(8)">Unlock a new platinum upgrade (kept on magic
+        dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(6)">Cactus farmer increase cacti/second<br>Currently x<a
+          id="magicUpgrade6Effect">1.00</a><br>Costs 100 dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(7)">Double dirtball gain. Simple.<br>Costs 300 dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(8)">Unlock a new music notes upgrade (kept on dirtball
         reset)<br>Costs
-        1,500 magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(9)">Fire upgrades 2 and 3 are severely boosted<br>Costs
-        4,000 magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(10)">Magic upgrades 4 and 6 are boosted<br>Costs 20,000
-        magic</button>
-      <button class="magicUpgrade" onclick="buyMagicUpgrade(11)">Platinum upgrade 7 can be bought an extra 10 times<br>Costs 100,000
-        magic</button>
-      <button class="magicUpgrade" style="background-color: #74a" onclick="buyMagicUpgrade(12)">Unlock <b>Magic
-          Challenges</b><br>Costs 400,000 magic</button>
+        1,500 dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(9)">Thorn upgrades 2 and 3 are severely boosted<br>Costs
+        4,000 dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(10)">Dirtball upgrades 4 and 6 are boosted<br>Costs 20,000
+        dirtball</button>
+      <button class="magicUpgrade" onclick="buyMagicUpgrade(11)">Music notes upgrade 7 can be bought an extra 10 times<br>Costs 100,000
+        dirtball</button>
+      <button class="magicUpgrade" style="background-color: #74a" onclick="buyMagicUpgrade(12)">Unlock <b>Dirtball
+          Challenges</b><br>Costs 400,000 dirtball</button>
       <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(13)">Challenge score gain is
-        doubled<br>Costs 100,000,000 magic</button>
-      <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(14)">Fire upgrade 1 is
-        boosted<br>Costs 300,000,000 magic</button>
+        doubled<br>Costs 100,000,000 dirtball</button>
+      <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(14)">Thorn upgrade 1 is
+        boosted<br>Costs 300,000,000 dirtball</button>
       <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(15)">Challenge B1's effect is
-        better<br>Costs 1.50e9 magic</button>
-      <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(16)">Magic effect is squared<br>Costs
-        3.00e9 magic</button>
+        better<br>Costs 1.50e9 dirtball</button>
+      <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(16)">Dirtball effect is squared<br>Costs
+        3.00e9 dirtball</button>
       <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(17)">Magifolds multiply score
-        gain<br>Currently x<a id="magicUpgrade17Effect">1.00</a><br>Costs 1.00e11 magic</button>
-      <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(18)">Triple magic gain again. Easy
-        peasy.<br>Costs 4.00e12 magic</button>
+        gain<br>Currently x<a id="magicUpgrade17Effect">1.00</a><br>Costs 1.00e11 dirtball</button>
+      <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(18)">Triple dirtball gain again. Easy
+        peasy.<br>Costs 4.00e12 dirtball</button>
       <button class="magicUpgrade" style="display: none" onclick="buyMagicUpgrade(19)">Magifold effect is boosted from
-        (x^4) to (x^6)<br>Costs 1.00e13 magic</button>
+        (x^4) to (x^6)<br>Costs 1.00e13 dirtball</button>
       <button class="magicUpgrade" id="uraniumMagicUpgrade" onclick="buyMagicUpgrade(20)">Unlock
-        <b>Uranium</b><br>Costs 1.00e16 magic</button>
+        <b>Guitar</b><br>Costs 1.00e16 dirtball</button>
       <button id="magicUpgradeBuyMaxButton" style="margin: 5px 2px 0 2px; width: 50px; display: none"
         onclick="magicUpgradeBuyMax()">Buy max</button>
     </div>
