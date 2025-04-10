@@ -1155,22 +1155,22 @@ function loadGame(loadgame) {
     document.getElementsByClassName("upgradeDragonButton")[0].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon2.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your large dragon friend inspires awe and fear, and spews fire for you."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Adult cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Your large cactus king friend inspires awe and fear, and spews fire for you."
   }
   if (game.dragonStage >= 3) {
     document.getElementsByClassName("upgradeDragonButton")[1].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon3.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Elder dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your strong and wise dragon friend rests upon your mountain of gold, and defends it with inferno-like breath."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Elder cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Your strong and wise cactus king friend rests upon your mountain of gold, and defends it with inferno-like breath."
   }
   if (game.dragonStage >= 4) {
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon4.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Dark dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your menacing dark dragon calls upon the power of the void itself to defend your empire."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Dark cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Your menacing dark cactus king calls upon the power of the void itself to defend your empire."
   }
   if (game.dragonStage < 5) {
     document.getElementById("dragonAffectionStuff").style.display = "none"
@@ -1178,8 +1178,8 @@ function loadGame(loadgame) {
   if (game.dragonStage >= 5) {
     document.getElementsByClassName("upgradeDragonButton")[3].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon5.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Light dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your heavenly light dragon focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Light cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Your heavenly light cactus king focuses the power of the gods themselves to protect your people from harm. It can also fire lightning out of its claws, because it's cool like that."
     document.getElementById("dragonAffectionStuff").style.display = "block"
     document.getElementById("dragonTimeCooldown").textContent = format(game.dragonTimeCooldown, 0)
     document.getElementById("dragonTimeSpent").textContent = format(game.dragonTimeSpent, 0)
@@ -1206,8 +1206,8 @@ function loadGame(loadgame) {
     document.getElementsByClassName("upgradeDragonButton")[4].style.display = "none"
     document.getElementsByClassName("upgradeDragonButton")[5].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon6.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Machine dragon"
-    document.getElementById("dragonInfo").innerHTML = "Despite being filled with immense eldrich technology spiralling inwards forever, a million billion tiny cogs quietly ticking away, your dragon feels like merely a cog itself. Perhaps... it is still imperfect."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Machine cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Despite being filled with immense eldrich technology spiralling inwards forever, a million billion tiny cogs quietly ticking away, your cactus king feels like merely a cog itself. Perhaps... it is still imperfect."
     
     if (game.unlocks >= 18) {document.getElementById("unlockBloodButton").style.display = "none"}
     else {document.getElementById("unlockBloodButton").style.display = "block"}
@@ -1216,35 +1216,35 @@ function loadGame(loadgame) {
     document.getElementsByClassName("upgradeDragonButton")[5].style.display = "none"
     if (game.unlocks < 27) document.getElementById("unlockVoidMagicUpgradesButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon7.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Holy dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon channels boundless energy through itself, a being of near-infinite strength. One even the gods fear. How did we get here?"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Holy cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Your cactus king channels boundless energy through itself, a being of near-infinite strength. One even the gods fear. How did we get here?"
   }
   if (game.dragonStage >= 8) {
     document.getElementsByClassName("upgradeDragonButton")[6].style.display = "none"
 		if (game.unlocks < 29) document.getElementById("unlockPlanetsButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon8.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Multidimensional dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon can view countless universes at once and channel all of their combined power."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Multidimensional cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Your cactus king can view countless universes at once and channel all of their combined power."
   }
 	if (game.dragonStage >= 9) {
     document.getElementsByClassName("upgradeDragonButton")[7].style.display = "none"
     document.getElementById("dragonImg").src = "img/iconDragon9.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Plague dragon"
-    document.getElementById("dragonInfo").innerHTML = "Dripping with the most dangerous substance in the omniverse, your dragon is completely unkillable."
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Plague cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Dripping with the most dangerous substance in the omniverse, your cactus king is completely unkillable."
   }
 	if (game.dragonStage >= 10) {
     document.getElementsByClassName("upgradeDragonButton")[8].style.display = "none"
 		if (game.unlocks < 35) document.getElementById("unlockNuclearPastaButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon10.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Death dragon"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Death cactus king"
     document.getElementById("dragonInfo").innerHTML = "Your dragon embodies death itself. It seems you have killed Death and taken his place as the taker of souls."
   }
 	if (game.dragonStage >= 11) {
     document.getElementsByClassName("upgradeDragonButton")[9].style.display = "none"
 		if (game.unlocks < 37) document.getElementById("unlockFinalityCubesButton").style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon11.png"
-    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Finality dragon"
-    document.getElementById("dragonInfo").innerHTML = "Your dragon is now composed of the essence of the omniverse itself. It is physically impossible to become any stronger. Unless...?"
+    document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have a</a><br>Finality cactus king"
+    document.getElementById("dragonInfo").innerHTML = "Your cactus king is now composed of the essence of the omniverse itself. It is physically impossible to become any stronger."
   }
 
   //sigil resetter stuff, needs to be after unlocks so the sigil resetter types can all be properly prefilled
