@@ -1163,7 +1163,7 @@ function loadGame(loadgame) {
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "block"
     document.getElementById("dragonImg").src = "img/iconDragon3.png"
     document.getElementById("dragonTitle").innerHTML = "<a style='font-size: 14px'>You have an</a><br>Elder cactus king"
-    document.getElementById("dragonInfo").innerHTML = "Your strong and wise cactus king friend rests upon your mountain of gold, and defends it with inferno-like breath."
+    document.getElementById("dragonInfo").innerHTML = "Your strong and wise cactus king friend rests upon your mountain of cactus, and defends it with Thorn-like breath."
   }
   if (game.dragonStage >= 4) {
     document.getElementsByClassName("upgradeDragonButton")[2].style.display = "none"
