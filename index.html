@@ -21,35 +21,36 @@
   <!--Main tab-->
   <div class="window box" id="tab_main" style="width: 350px; height: 300px">
     <div class="title-bar">
-      <div class="title-bar-text">The cactus farm</div>
+      <div class="title-bar-text">DodecaDragons</div>
     </div>
     <div class="window-body">
-      <p class="titleText">You have <a id="gold">0</a> cacti</p>
+      <p class="titleText">You have <a id="gold">0</a> gold</p>
       <p style="margin-top: 4px">(<a id="goldPerSecond">0</a>/s, <a id="goldPerClick">0</a>/click)</p>
-      <button style="min-width: 74px" onclick="produceGold()">Harvest cactus</button><br>
-      <button id="buyMinerButton" style="height: 34px; text-align: left" onclick="buyMiner()">Hire a cactus Farmer<br>Costs <a id="minerCost">20</a> cacti</button>
+      <button style="min-width: 74px" onclick="produceGold()">Mine gold</button><br>
+      <button id="buyMinerButton" style="height: 34px; text-align: left" onclick="buyMiner()">Hire a gold miner<br>Costs <a id="minerCost">20</a> gold</button>
       <button style="height: 34px; min-width: 49px" onclick="buyMaxMiners()">Buy<br>max</button><br>
       <button id="minerAutoBuyMaxButton" style="display: none" onclick="minerAutoBuyMax()">Auto buy max: On</button><br><br>
-      <button id="unlockDragonButton" style="height: 34px" onclick="unlockDragon()">Get a young cactus king<br>Costs 200 cacti</button>
-      <button id="unlockAlchemyButton" style="height: 34px; display: none" onclick="unlockAlchemy()">Unlock Music<br>Costs 20,000,000 cacti</button>
-      <button id="unlockMagicButton" style="height: 34px; display: none" onclick="unlockMagic()">Unlock <a style="color: #707">Dirtball</a><br>Costs 1.00e15 gold</button>
+      <button id="unlockDragonButton" style="height: 34px" onclick="unlockDragon()">Get a young dragon<br>Costs 200 gold</button>
+      <button id="unlockAlchemyButton" style="height: 34px; display: none" onclick="unlockAlchemy()">Unlock Alchemy<br>Costs 20,000,000 gold</button>
+      <button id="unlockMagicButton" style="height: 34px; display: none" onclick="unlockMagic()">Unlock <a style="color: #707">Magic</a><br>Costs 1.00e15 gold</button>
       <button id="moreMagicUpgradesButton" style="background-color: #95a; height: 46px; display: none;" onclick="unlockMoreMagicUpgrades()">Unlock more magic upgrades<br>Costs 200,000,000 magic,<br>Requires 150,000 magifolds</button>
       <button id="morePUupgradesButton" style="height: 34px; display: none" onclick="morePUupgrades()">Gain more platinum and uranium upgrades<br>Costs 1.00e420 gold</button>
       <button id="unlockDarkMagicUpgradesButton" style="height: 46px; display: none" onclick="unlockDarkMagicUpgrades()">Unlock <a style="color: #404; text-shadow: 1px 1px #88f">Dark Magic Upgrades</a><br>You are gaining stronger control over your magic powers.<br>Costs 1.00e1,000 gold</button>
       <button id="unlockBloodButton" onclick="unlockBlood()">&#8202;&#8202;UNLOCK BLOOD<br>Costs e5.00e14 gold</button>
       <button id="moreDarkMagicUpgradesButton" style="background-color: #74a; height: 34px; display: none" onclick="moreDarkMagicUpgrades()">Unlock more dark magic upgrades<br>Costs e6.66e16 gold</button>
       <button id="unlockVoidMagicUpgradesButton" style="background-color: #222; color: white; height: 58px; display: none" onclick="unlockVoidMagicUpgrades()">&#8202;&#8202;Unlock <a style="color: #dbf; text-shadow: 1px 1px #648">Void Magic Upgrades</a><br>You are mastering control of your magic powers.<br>Costs e1.00e100 gold and 100,000,000 holy fire</button>
-			<button id="unlockPlanetsButton" style="background-color: black; background-image: url('img/spaceBack.png'); color: #b8f; height: 34px; width: 200px; display: none" onclick="unlockPlanets()">&#8202;&#8202;Unlock <b>Planets</b><br>Costs e1.00e400 gold</button>
-			<button id="omniverseWarning" style="background-color: black; color: #b0f; text-shadow: 0 1px #00f; height: 46px; display: none">&#8202;&#8202;Something unseeable looms over you. A powerful presence has taken<br>&#8202;&#8202;an interest in your actions. Perhaps it may show itself if you acquire more gold.</button>
-			<button id="unlockEssencesButton" style="background-color: white; color: black; height: 34px; width: 250px; display: none" onclick="unlockEssences()">&#8202;&#8202;Unlock the <b>Light and Dark Essences</b><br>&#8202;&#8202;Costs ee500,000 gold</button>
-			<button id="unlockDeathEssenceButton" style="background-color: #f88; color: black; height: 34px; width: 250px; display: none" onclick="unlockDeathEssence()">Unlock <b>Death Essence</b><br>Costs ee1,500,000 gold</button>
-			<button id="unlockNuclearPastaButton" style="background-color: #fd8; color: #630; height: 34px; display: none" onclick="unlockNuclearPasta()">&#8202;&#8202;Unlock <b>Nuclear Pasta</b><br>Costs ee3,500,000 gold</button>
-			<button id="unlockFinalityEssenceButton" style="background-color: #b8f; color: black; height: 34px; width: 250px; display: none" onclick="unlockFinalityEssence()">&#8202;&#8202;Unlock <b>Finality Essence</b><br>Costs ee150,000,000 gold</button>
-			<button id="unlockFinalityCubesButton" style="background-color: black; color: #f0f; text-shadow: 1px 1px #4300a4; height: 34px; width: 250px; display: none" onclick="unlockFinalityCubes()">Unlock <b>Finality Cubes</b><br>&#8202;&#8202;Costs ee7.50e9 gold</button>
-			<button id="bigFinishButton" style="background-color: black; color: white; height: 34px; width: 250px; display: none" onclick="bigFinishCheck()">&#8202;&#8202;Become the omniverse.<br>Costs ee1.00e12 gold</button>
+      <button id="unlockPlanetsButton" style="background-color: black; background-image: url('img/spaceBack.png'); color: #b8f; height: 34px; width: 200px; display: none" onclick="unlockPlanets()">&#8202;&#8202;Unlock <b>Planets</b><br>Costs e1.00e400 gold</button>
+      <button id="omniverseWarning" style="background-color: black; color: #b0f; text-shadow: 0 1px #00f; height: 46px; display: none">&#8202;&#8202;Something unseeable looms over you. A powerful presence has taken<br>&#8202;&#8202;an interest in your actions. Perhaps it may show itself if you acquire more gold.</button>
+      <button id="unlockEssencesButton" style="background-color: white; color: black; height: 34px; width: 250px; display: none" onclick="unlockEssences()">&#8202;&#8202;Unlock the <b>Light and Dark Essences</b><br>&#8202;&#8202;Costs ee500,000 gold</button>
+      <button id="unlockDeathEssenceButton" style="background-color: #f88; color: black; height: 34px; width: 250px; display: none" onclick="unlockDeathEssence()">Unlock <b>Death Essence</b><br>Costs ee1,500,000 gold</button>
+      <button id="unlockNuclearPastaButton" style="background-color: #fd8; color: #630; height: 34px; display: none" onclick="unlockNuclearPasta()">&#8202;&#8202;Unlock <b>Nuclear Pasta</b><br>Costs ee3,500,000 gold</button>
+      <button id="unlockFinalityEssenceButton" style="background-color: #b8f; color: black; height: 34px; width: 250px; display: none" onclick="unlockFinalityEssence()">&#8202;&#8202;Unlock <b>Finality Essence</b><br>Costs ee150,000,000 gold</button>
+      <button id="unlockFinalityCubesButton" style="background-color: black; color: #f0f; text-shadow: 1px 1px #4300a4; height: 34px; width: 250px; display: none" onclick="unlockFinalityCubes()">Unlock <b>Finality Cubes</b><br>&#8202;&#8202;Costs ee7.50e9 gold</button>
+      <button id="bigFinishButton" style="background-color: black; color: white; height: 34px; width: 250px; display: none" onclick="bigFinishCheck()">&#8202;&#8202;Become the omniverse.<br>Costs ee1.00e12 gold</button>
     </div>
   </div>
-
+  <script src="scripts/gold.js"></script>
+</body>
   <!--Settings-->
   <div class="window box"
     style="width: 150px; top: 55px; left: 5px; transform: none; padding-bottom: 8px; z-index: 1; display: none;">
