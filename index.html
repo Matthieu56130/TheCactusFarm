@@ -97,7 +97,7 @@
       <p class="resourceRow" onclick="posSet(0,0)"><img src="img/iconGoldCoins.png" class="resourceIcon"></img>Cacti: <a class="resourceText">0</a></p>
       <p class="resourceRow" onclick="posSet(0,0)" style="display: none"><img src="img/iconMiner.png" class="resourceIcon"></img>Cactus farmer: <a class="resourceText">0</a></p>
       <p class="resourceRow" onclick="posSet(365,-365)" style="display: none"><img src="img/iconFire.png" class="resourceIcon"></img>Thorn: <a class="resourceText">0</a></p>
-      <p class="resourceRow" onclick="posSet(-320,-100)" style="display: none"><img src="img/iconPlatinumCoins.png" class="resourceIcon"></img>Music sheet: <a class="resourceText">0</a></p>
+      <p class="resourceRow" onclick="posSet(-320,-100)" style="display: none"><img src="img/iconPlatinumCoins.png" class="resourceIcon"></img>Music note: <a class="resourceText">0</a></p>
       <p class="resourceRow" onclick="posSet(0,287)" style="display: none"><img src="img/iconMagic.png" class="resourceIcon"></img>Magic: <a class="resourceText">0</a></p>
       <p class="resourceRow" onclick="posSet(-390,365)" style="display: none"><img src="img/iconMagifold.png" class="resourceIcon"></img>Magifolds: <a class="resourceText">0</a> </p>
       <p class="resourceRow" onclick="posSet(-595,-100)" style="display: none"><img src="img/iconUraniumCoins.png" class="resourceIcon"></img>Uranium: <a class="resourceText">0</a></p>
@@ -218,28 +218,28 @@
     </div>
     <div class="window-body">
       <button id="platinumConvertButton" onclick="platinumConvert()">Convert all cacti into <a id="platinumToGet">0</a>
-        music sheet (<a id="platinumConvertCooldown">0</a>)</button>
-      <p style="margin-top: 4px">You have <a id="platinum">0</a> music sheet<br>+ Gain <a id="extraPlatinumPerSecond">2</a> extra music sheet per second :)</p><br>
+        music note (<a id="platinumConvertCooldown">0</a>)</button>
+      <p style="margin-top: 4px">You have <a id="platinum">0</a> music note<br>+ Gain <a id="extraPlatinumPerSecond">2</a> extra music note per second :)</p><br>
       <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(1)">Gain 20% more cacti/second (<a
-          class="platinumUpgradesBought">0</a>/20)<br>Costs 200 music sheet</button><br>
+          class="platinumUpgradesBought">0</a>/20)<br>Costs 200 music note</button><br>
       <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(2)">Gain 20% more thorn/second (<a
-          class="platinumUpgradesBought">0</a>/20)<br>Costs 500 music sheet</button><br>
+          class="platinumUpgradesBought">0</a>/20)<br>Costs 500 music note</button><br>
       <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(3)">Unlock a new thorn upgrade (<a
-          class="platinumUpgradesBought">0</a>/1)<br>Costs 750 music sheet</button><br>
+          class="platinumUpgradesBought">0</a>/1)<br>Costs 750 music note</button><br>
       <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(4)">Cactus farmer cost scales 5% slower (<a
-          class="platinumUpgradesBought">0</a>/5)<br>Costs 1,500 music sheet</button><br>
-      <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(5)" style="height: 46px"> Gain music sheet every second without<br>resetting (<a
-          class="platinumUpgradesBought">0</a>/1)<br>Costs 2,000 music sheet</button><br>
-      <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(6)" style="height: 46px">Music sheet increases
+          class="platinumUpgradesBought">0</a>/5)<br>Costs 1,500 music note</button><br>
+      <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(5)" style="height: 46px"> Gain music note every second without<br>resetting (<a
+          class="platinumUpgradesBought">0</a>/1)<br>Costs 2,000 music note</button><br>
+      <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(6)" style="height: 46px">Music note increases
         gold/second (<a class="platinumUpgradesBought">0</a>/4)<br>Currently x<a
-          id="platinumUpgrade6Effect">1.00</a><br>Costs 15,000 music sheet</button><br>
+          id="platinumUpgrade6Effect">1.00</a><br>Costs 15,000 music note</button><br>
       <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(7)" style="height: 46px; display: none">Increase dirt ball
         effect (<a class="platinumUpgradesBought">0</a>/<a id="platinumUpgrade7Max">10</a>)<br>Currently x<a
-          id="platinumUpgrade7Effect">1.00</a><br>Costs 1,000,000 music sheet</button><br>
+          id="platinumUpgrade7Effect">1.00</a><br>Costs 1,000,000 music note</button><br>
       <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(8)" style="display: none">Double uranium gain (<a
-          class="platinumUpgradesBought">0</a>/5)<br>Costs 1.000e22 music sheet</button><br>
+          class="platinumUpgradesBought">0</a>/5)<br>Costs 1.000e22 music note</button><br>
       <button class="platinumUpgrade" onclick="buyPlatinumUpgrade(9)" style="display: none">Thorn upgrade 4 is boosted
-        (<a class="platinumUpgradesBought">0</a>/5)<br>Costs 1.000e30 music sheet</button><br>
+        (<a class="platinumUpgradesBought">0</a>/5)<br>Costs 1.000e30 music note</button><br>
       <button id="platinumMaxAllButton" onclick="platinumMaxAll()">Max all</button>
     </div>
   </div>
