@@ -230,9 +230,9 @@ const achievementRewards = {
 }
 const achievementResources = [
   {name:"cacti", shortName:"&#8202;&#8202;Cacti", internalName:"gold"},
-  {name:"fire", shortName:"&#8202;&#8202;Fire", internalName:"fire"},
-  {name:"platinum", shortName:"Platinum", internalName:"platinum"},
-  {name:"magic", shortName:"Magic", internalName:"magic"},
+  {name:"thorn", shortName:"&#8202;&#8202;Thorn", internalName:"fire"},
+  {name:"music notes", shortName:"Music notes", internalName:"platinum"},
+  {name:"dirtball", shortName:"Dirtball", internalName:"magic"},
   {name:"magifolds", shortName:"Magifolds", internalName:"magifolds"},
   {name:"uranium", shortName:"Uranium", internalName:"uranium"},
   {name:"cyan sigils", shortName:"C-sigils", internalName:"cyanSigils"},
