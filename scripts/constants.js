@@ -57,8 +57,8 @@ const achievementNames = [
   ["Note-worthy", "Melody Maestro", "Harmony Hero", "Tune Titan", "Rhythm Ruler", "Symphony Sage", "Chord Conqueror", "Beat Boss", "Melodic Master", "Sound Sorcerer", "Tune Tamer", "Note Ninja"],
   //Dirtball
   ["Dirtball Dynamo", "Mud Magician", "Soil Sorcerer", "Earth Enchanter", "Clay Conjurer", "Dirtball Druid", "Terra Tamer", "Mud Master", "Soil Sage", "Earth Elementalist", "Clay Crafter", "Dirtball Deity"],
-  //Magifolds
-  ["4-dimensional", "10-dimensional", "Superstring theory", "Infinitely folding", "Incomprehensible", "Megafolds", "GIGAFOLDS", "Spacetime origami", "Nonagon Infinity", "Holonomy breakdown", "Simplex complex", "Basket case"],
+  //Garage
+  ["Garage Guru", "Mechanic Master", "Garage Genius", "Tool Time Titan", "Garage Gladiator", "Wrench Wizard", "Garage Gambit", "Fix-It Phenom", "Garage Guardian", "Repair Ruler", "Garage Grandmaster", "Garage time"],
   //Uranium
   ["Ionizing", "Radiating", "Neutralizing", "Terrifying", "Devastating", "Decaying", "Annihilating", "Obliterating", "Glowing", "Reducing", "Inspiring", "Ending"],
   //Cyan sigils
