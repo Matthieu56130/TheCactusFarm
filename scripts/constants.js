@@ -49,7 +49,7 @@ const nuclearPastaNegativeEffects = ["&#8202;&#8202;Zero death essence gain", "&
 const nuclearPastaUpgradeCosts = ["ee7.5e6", "ee1.2e8", "ee2.5e8", "ee7.5e8"]
 
 const achievementNames = [
-  //Gold
+  //Cacti
   ["Starting strong", "Growing stronger", "The heap", "Motherlode", "Cactus wizard", "Unending mound of cactus", "Multiversal", "Endless realm of cactus", "Loaded", "Mega-loaded (???)", "No way", "The original cacto!"],
   //Fire
   ["Spicy", "Pierced hands", "The great thorn", "The infernal thorn", "Thorn pit", "Cacto reapers", "Supplice of thorn", "World of thorn", "Infernal world of thorn", "Unfortunate events", "Thorn warming", "The end of everything"],
