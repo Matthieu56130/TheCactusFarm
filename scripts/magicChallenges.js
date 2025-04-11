@@ -6,21 +6,21 @@ function showMagicChallenge(x) {
       document.getElementById("magicChallengeInfo").innerHTML = "<a style='color: #606'>Hover over a challenge to see what it does!</a><br><a style='color: #060'>You can select up to 4 challenges, and you will earn separate scores for each amount of challenges you enter at once (1, 2, 3 and 4).</a><a style='color: #046'> Bonuses are based on the highest score achieved in each amount of challenges, multiplied together.</a>"
       break
     case 1:
-      document.getElementById("magicChallengeTitle").innerHTML = "A1 - Magic fail"
-      document.getElementById("magicChallengeInfo").innerHTML = "magic effect is ^0.2 then /1.000e25."
+      document.getElementById("magicChallengeTitle").innerHTML = "Garage 1 - Dirtball fail"
+      document.getElementById("magicChallengeInfo").innerHTML = "dirtball effect is ^0.2 then /1.000e25."
       break
     case 2:
-      document.getElementById("magicChallengeTitle").innerHTML = "A2 - Market crash"
-      document.getElementById("magicChallengeInfo").innerHTML = "Gold and platinum gain are severely reduced (^0.25)."
+      document.getElementById("magicChallengeTitle").innerHTML = "Garage 2 - Market crash"
+      document.getElementById("magicChallengeInfo").innerHTML = "cacti and music notes gain are severely reduced (^0.25)."
       break
     case 3:
-      document.getElementById("magicChallengeTitle").innerHTML = "B1 - Freezing"
-      if (game.magicUpgradesBought[14]) {document.getElementById("magicChallengeInfo").innerHTML = "Fire gain is severely reduced (^0.3)."}
-      else {document.getElementById("magicChallengeInfo").innerHTML = "Fire gain is severely reduced (^0.1)."}
+      document.getElementById("magicChallengeTitle").innerHTML = "Garage 3 - Freezing"
+      if (game.magicUpgradesBought[14]) {document.getElementById("magicChallengeInfo").innerHTML = "Thorn gain is severely reduced (^0.3)."}
+      else {document.getElementById("magicChallengeInfo").innerHTML = "Thorn gain is severely reduced (^0.1)."}
       break
     case 4:
-      document.getElementById("magicChallengeTitle").innerHTML = "B2 - Awful alchemy"
-      document.getElementById("magicChallengeInfo").innerHTML = "Platinum upgrade 6's effect is /1.000e25 and gold/click is always 20."
+      document.getElementById("magicChallengeTitle").innerHTML = "Garage 4 - Awful music #Boullez"
+      document.getElementById("magicChallengeInfo").innerHTML = "Music note upgrade 6's effect is /1.000e25 and cacti/click is always 20."
       break
     default:
       document.getElementById("magicChallengeTitle").innerHTML = ""
