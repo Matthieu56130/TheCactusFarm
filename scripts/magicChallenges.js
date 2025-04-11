@@ -49,7 +49,7 @@ function enterExitMagicChallenges() {
     magicReset()
     game.challengesActive = true
     game.noOfSelectedChallenges = + game.selectedChallenges[0] + game.selectedChallenges[1] + game.selectedChallenges[2] + game.selectedChallenges[3]
-    document.getElementById("activeChallenges").innerHTML = "Challenges active: " + (game.selectedChallenges[0] ? 'A1 ' : '') + (game.selectedChallenges[1] ? 'A2 ' : '') + (game.selectedChallenges[2] ? 'B1 ' : '') + (game.selectedChallenges[3] ? 'B2' : '') + " (" + game.noOfSelectedChallenges + ")"
+    document.getElementById("activeChallenges").innerHTML = "Challenges active: " + (game.selectedChallenges[0] ? 'G1 ' : '') + (game.selectedChallenges[1] ? 'G2 ' : '') + (game.selectedChallenges[2] ? 'G3 ' : '') + (game.selectedChallenges[3] ? 'G4' : '') + " (" + game.noOfSelectedChallenges + ")"
     updateSmall()
   }
   else if (game.challengesActive) {
