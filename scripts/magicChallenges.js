@@ -19,7 +19,7 @@ function showMagicChallenge(x) {
       else {document.getElementById("magicChallengeInfo").innerHTML = "Thorn gain is severely reduced (^0.1)."}
       break
     case 4:
-      document.getElementById("magicChallengeTitle").innerHTML = "Garage 4 - Awful music #Boullez"
+      document.getElementById("magicChallengeTitle").innerHTML = "Garage 4 - Awful music #Boulez"
       document.getElementById("magicChallengeInfo").innerHTML = "Music note upgrade 6's effect is /1.000e25 and cacti/click is always 20."
       break
     default:
