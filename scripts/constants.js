@@ -229,7 +229,7 @@ const achievementRewards = {
 	ach24x11: "Unlock something.",
 }
 const achievementResources = [
-  {name:"gold", shortName:"&#8202;&#8202;Gold", internalName:"gold"},
+  {name:"cacti", shortName:"&#8202;&#8202;Cacti", internalName:"gold"},
   {name:"fire", shortName:"&#8202;&#8202;Fire", internalName:"fire"},
   {name:"platinum", shortName:"Platinum", internalName:"platinum"},
   {name:"magic", shortName:"Magic", internalName:"magic"},
