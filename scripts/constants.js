@@ -233,7 +233,7 @@ const achievementResources = [
   {name:"thorn", shortName:"&#8202;&#8202;Thorn", internalName:"fire"},
   {name:"music", shortName:"Music", internalName:"platinum"},
   {name:"dirtball", shortName:"Dirtball", internalName:"magic"},
-  {name:"magifolds", shortName:"Magifolds", internalName:"magifolds"},
+  {name:"garage", shortName:"Garage", internalName:"magifolds"},
   {name:"uranium", shortName:"Uranium", internalName:"uranium"},
   {name:"cyan sigils", shortName:"C-sigils", internalName:"cyanSigils"},
   {name:"blue sigils", shortName:"&#8202;&#8202;B-sigils", internalName:"blueSigils"},
