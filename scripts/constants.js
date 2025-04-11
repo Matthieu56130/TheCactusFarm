@@ -50,13 +50,13 @@ const nuclearPastaUpgradeCosts = ["ee7.5e6", "ee1.2e8", "ee2.5e8", "ee7.5e8"]
 
 const achievementNames = [
   //Cacti
-  ["Starting strong", "Growing stronger", "The heap", "Motherlode", "Cactus wizard", "Unending mound of cactus", "Multiversal", "Endless realm of cactus", "Loaded", "Mega-loaded (???)", "No way", "The original cacto!"],
-  //Fire
-  ["Spicy", "Pierced hands", "The great thorn", "The infernal thorn", "Thorn pit", "Cacto reapers", "Supplice of thorn", "World of thorn", "Infernal world of thorn", "Unfortunate events", "Thorn warming", "The end of everything"],
-  //Platinum
-  ["Alchemagoria", "Jeweller", "Putting in the work", "Magnum opus", "Simple chemistry", "Mirror polish", "Silver skyscrapers", "Advanced chemistry", "God of transmutation", "Platisynthesis", "Mystical barista", "Completing the work"],
-  //Magic
-  ["Funny wizard hat", "Sorcery", "Magiccery!", "THE BIGGER HAT", "Thaumaturgy", "Spells galore", "Reshape the Earth", "Unlimited potential", "Star shatterer", "Endless grimoires", "Void tapping", "Threshold memories"],
+  ["Cacti Connoisseur", "Prickly Perfection", "Cacti Collector", "Cacti Craze", "Cacti Kingdom", "Cacti Overload", "Cacti Champion", "Cacti Crusader", "Cacti Overlord", "Cacti Mastermind", "Cacti Extravaganza", "Cacti Wonderland"],
+  //Thorn
+  ["Thorny Situation", "Prickly Business", "Thorn in My Side", "Thorny Path", "Thorny Crown", "Thorny Dilemma", "Thorny Encounter", "Thorny Issue", "Thorny Problem", "Thorny Solution", "Thorny Victory", "Thorny Triumph"],
+  //Music notes
+  ["Note-worthy", "Melody Maestro", "Harmony Hero", "Tune Titan", "Rhythm Ruler", "Symphony Sage", "Chord Conqueror", "Beat Boss", "Melodic Master", "Sound Sorcerer", "Tune Tamer", "Note Ninja"],
+  //Dirtball
+  ["Dirtball Dynamo", "Mud Magician", "Soil Sorcerer", "Earth Enchanter", "Clay Conjurer", "Dirtball Druid", "Terra Tamer", "Mud Master", "Soil Sage", "Earth Elementalist", "Clay Crafter", "Dirtball Deity"],
   //Magifolds
   ["4-dimensional", "10-dimensional", "Superstring theory", "Infinitely folding", "Incomprehensible", "Megafolds", "GIGAFOLDS", "Spacetime origami", "Nonagon Infinity", "Holonomy breakdown", "Simplex complex", "Basket case"],
   //Uranium
