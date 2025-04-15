@@ -1493,7 +1493,7 @@ function updateSmall() {
     game.magicToGet = getMagicGain()
     document.getElementById("magicToGet").textContent = format(game.magicToGet, 0)
     if (game.unlocks >= 10) {document.getElementById("nextMagic").textContent = ""}
-    else {document.getElementById("nextMagic").innerHTML = "Next magic at " + format(getNextMagicAt(), 0) + " gold<br>"}
+    else {document.getElementById("nextMagic").innerHTML = "Next magic at " + format(getNextMagicAt(), 0) + " cacti<br>"}
     //document.getElementById("nextMagic").innerHTML = "Next magic at " + format(getNextMagicAt(), 0) + " gold<br>"
     document.getElementById("magic").textContent = format(game.magic, 0)
     document.getElementsByClassName("resourceText")[4].textContent = format(game.magic, 0)
