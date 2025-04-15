@@ -59,8 +59,8 @@ const achievementNames = [
   ["Dirtball Dynamo", "Mud Magician", "Soil Sorcerer", "Earth Enchanter", "Clay Conjurer", "Dirtball Druid", "Terra Tamer", "Mud Master", "Soil Sage", "Earth Elementalist", "Clay Crafter", "Dirtball Deity"],
   //Garage
   ["Garage Guru", "Mechanic Master", "Garage Genius", "Tool Time Titan", "Garage Gladiator", "Wrench Wizard", "Garage Gambit", "Fix-It Phenom", "Garage Guardian", "Repair Ruler", "Garage Grandmaster", "Garage time"],
-  //Uranium
-  ["Ionizing", "Radiating", "Neutralizing", "Terrifying", "Devastating", "Decaying", "Annihilating", "Obliterating", "Glowing", "Reducing", "Inspiring", "Ending"],
+  //Guitar
+  ["Strumming", "Plucking", "Shredding", "Jamming", "Riffing", "Soloing", "Tuning", "Rocking", "Striking a Chord", "Harmonizing", "Fretting", "Amplifying"],
   //Cyan sigils
   ["Chromatic", "Chaotic", "Colorific", "Catastrophic", "Catatonic", "Chromatic II", "Chaotic II", "Colorific II", "Catastrophic II", "Catatonic II", "Chromatic III", "Chaotic III"],
   //Blue sigils
@@ -234,7 +234,7 @@ const achievementResources = [
   {name:"music", shortName:"Music", internalName:"platinum"},
   {name:"dirtball", shortName:"Dirtball", internalName:"magic"},
   {name:"garage", shortName:"Garage", internalName:"magifolds"},
-  {name:"uranium", shortName:"Uranium", internalName:"uranium"},
+  {name:"guitar", shortName:"Guitar", internalName:"uranium"},
   {name:"cyan sigils", shortName:"C-sigils", internalName:"cyanSigils"},
   {name:"blue sigils", shortName:"&#8202;&#8202;B-sigils", internalName:"blueSigils"},
   {name:"indigo sigils", shortName:"&#8202;&#8202;I-sigils", internalName:"indigoSigils"},
