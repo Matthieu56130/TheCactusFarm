@@ -154,18 +154,18 @@ const achievementRequirements = [
 ]
 const achievementRewards = {
   //gold
-  ach0x4: "Unlock Max All button for platinum upgrades!",
-  ach0x8: "Unlock autobuyer for miners! Also allows you to keep 1 miner when resetting.",
-  ach0x10: "Unlock Buy Max buttons for magic and dark magic upgrades!",
+  ach0x4: "Unlock Max All button for music notes upgrades!",
+  ach0x8: "Unlock autobuyer for farmers! Also allows you to keep 1 farmer when resetting.",
+  ach0x10: "Unlock Buy Max buttons for dirtball and dark dirtball upgrades!",
   //magic
-  ach3x0: "Unlock Buy Max buttons for fire upgrades!",
-  ach3x1: "Unlock Max All button for fire upgrades!",
-  ach3x4: "Keep all platinum upgrades on magic reset!",
-  ach3x5: "Gain 1% of potential magic per second!",
-  ach3x7: "Gain 100% of potential magic per second!",
+  ach3x0: "Unlock Buy Max buttons for thorn upgrades!",
+  ach3x1: "Unlock Max All button for thorn upgrades!",
+  ach3x4: "Keep all music notes upgrades on dirtball reset!",
+  ach3x5: "Gain 1% of potential dirtabll per second!",
+  ach3x7: "Gain 100% of potential dirtball per second!",
   //uranium
-  ach5x2: "Unlock Max All button for uranium upgrades!",
-  ach5x3: "Automatically gain uranium without resetting!",
+  ach5x2: "Unlock Max All button for guitar upgrades!",
+  ach5x3: "Automatically gain guitar without resetting!",
   //cyan sigils
   ach6x0: "Automatically spend time with your dragon when available! Also allows you to enter challenges while on cooldown.",
   ach6x1: "Feeding your dragon reduces scores by ^0.5 instead of resetting them!",
