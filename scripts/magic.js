@@ -242,5 +242,7 @@ function getNextMagicAt() {
   }
   nextMagic = nextMagic.pow(10).mul(1e15).add(1);
   if (game.unlocks >= 10) nextMagic = new Decimal(6969); //should be hidden by this point, so nobody should see this
+  document.getElementById("nextMagic").innerHTML = "Next dirtball at: " + nextMagic + " cacti";
   return nextMagic;
 }
+
