@@ -1,16 +1,16 @@
 function generateHotkeyText() {
   let hotkeyText = '<p style="font-weight: bold">Shift+S - manual save';
   if (game.unlocks >= 3) {
-    hotkeyText += '<br><a style="color: #288">P - platinum</a>'
+    hotkeyText += '<br><a style="color: #288">M - music notes</a>'
   }
   if (game.unlocks >= 4) {
-    hotkeyText += '<br><a style="color: #90d">M - magic</a>'
+    hotkeyText += '<br><a style="color: #90d">D - dirtball</a>'
   }
   if (game.unlocks >= 5) {
-    hotkeyText += '<br><a style="color: #60d">1, 2, 3, 4 - activate/deactivate magic challenges</a><br><a style="color: #60d">C - enter/exit magic challenges</a>'
+    hotkeyText += '<br><a style="color: #60d">1, 2, 3, 4 - activate/deactivate garage challenges</a><br><a style="color: #60d">C - enter/exit garage challenges</a>'
   }
   if (game.unlocks >= 7) {
-    hotkeyText += '<br><a style="color: #282">U - uranium</a>'
+    hotkeyText += '<br><a style="color: #282">G - guitar</a>'
   }
   if (game.unlocks >= 10) {
     hotkeyText += '<br><a style="color: #06b">Shift+1 - cyan sigils</a>, <a style="color: #00b">Shift+2 - blue sigils</a>, et cetera'
@@ -30,14 +30,14 @@ function generateHotkeyText() {
 
 Mousetrap.bind('shift+t', timeStopStart);
 Mousetrap.bind('shift+s', save);
-Mousetrap.bind('p', () => {if (game.unlocks >= 3) platinumConvert()});
-Mousetrap.bind('m', () => {if (game.unlocks >= 4) magicCheck()});
+Mousetrap.bind('m', () => {if (game.unlocks >= 3) platinumConvert()});
+Mousetrap.bind('d', () => {if (game.unlocks >= 4) magicCheck()});
 Mousetrap.bind('1', () => {if (game.unlocks >= 5) {showMagicChallenge(1); activateMagicChallenge(1)}});
 Mousetrap.bind('2', () => {if (game.unlocks >= 5) {showMagicChallenge(2); activateMagicChallenge(2)}});
 Mousetrap.bind('3', () => {if (game.unlocks >= 5) {showMagicChallenge(3); activateMagicChallenge(3)}});
 Mousetrap.bind('4', () => {if (game.unlocks >= 5) {showMagicChallenge(4); activateMagicChallenge(4)}});
 Mousetrap.bind('c', () => {if (game.unlocks >= 5) enterExitMagicChallenges()});
-Mousetrap.bind('u', () => {if (game.unlocks >= 7) uraniumConvert()});
+Mousetrap.bind('g', () => {if (game.unlocks >= 7) uraniumConvert()});
 Mousetrap.bind('t', () => {if (game.unlocks >= 16) buyMaxTomes()});
 Mousetrap.bind('h', () => {if (game.unlocks >= 18) enterExitHell()});
 Mousetrap.bind('shift+p', () => {if (game.unlocks >= 20) plutoniumConvert()});
