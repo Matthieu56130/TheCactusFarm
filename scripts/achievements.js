@@ -194,19 +194,19 @@ function showAchievementInfo(x,y) {
   /*
   switch (thisId) {
     case "0-4":
-      newHtml += "<p style='color: #8ff'>Reward: Unlocks Max All button for platinum!</p>"
+      newHtml += "<p style='color: #8ff'>Reward: Unlocks Max All button for music notes!</p>"
     break;
     case "3-0":
-      newHtml += "<p style='color: #8f8'>Reward: Unlocks Buy Max button for fire upgrades!</p>"
+      newHtml += "<p style='color: #8f8'>Reward: Unlocks Buy Max button for thorn upgrades!</p>"
     break;
     case "3-1":
-      newHtml += "<p style='color: #8f8'>Reward: Unlocks Max Buy All button for fire upgrades!</p>"
+      newHtml += "<p style='color: #8f8'>Reward: Unlocks Max Buy All button for thorn upgrades!</p>"
     break;
     case "3-4":
-      newHtml += "<p style='color: #8f8'>Reward: Keep all platinum upgrades on magic reset!</p>"
+      newHtml += "<p style='color: #8f8'>Reward: Keep all music notes upgrades on magic reset!</p>"
     break;
     case "3-5":
-      newHtml += "<p style='color: #8f8'>Reward: Gain 1% of potential magic per second!</p>"
+      newHtml += "<p style='color: #8f8'>Reward: Gain 1% of potential dirtball per second!</p>"
     break;
   }
   */
