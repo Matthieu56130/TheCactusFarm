@@ -426,26 +426,26 @@
     </div>
   </div>
 
-  <!--Cyan sigils tab-->
+  <!--Chopin's sigils tab-->
   <div class="window box" id="tab_cyanSigils" style="width: 350px; height: 300px; background-color: #666; display: none;">
     <div class="title-bar" style="background:linear-gradient(90deg,#444,#06b)">
-      <div class="title-bar-text">Cyan sigils</div>
+      <div class="title-bar-text">Chopin's sigils</div>
     </div>
     <div class="window-body">
       <img src="img/iconSigil1.png" style="position: absolute; top: 26px; left: 4px; width: 64px"><br>
       <div style="margin-left: 68px; width: 268px; height: 60px">
         <p style="font-size: 16px; color: #8bf; text-shadow: 1px 1px #024; margin: 0; font-weight: bold">You have <a
-            id="cyanSigils">0</a> cyan sigils</p>
+            id="cyanSigils">0</a> Chopin's sigils</p>
         <p style="color: #8bf; text-shadow: 1px 1px #024; margin-left: 0; margin-top: 6px">Multiplying dirtball and score
           gain by <a id="cyanSigilEffect">1</a></p>
       </div>
       <button style="width: 342px; margin: 4px; background-color: #9bd; height: 32px; text-align: left"
-        onclick="sigilCheck(1)">Reset all previous progress for <a id="cyanSigilsToGet">0</a> cyan sigils<br>Next at
+        onclick="sigilCheck(1)">Reset all previous progress for <a id="cyanSigilsToGet">0</a> Chopin's sigils<br>Next at
         <a id="nextCyanSigil">1.00e3,000</a> cacti</button>
       <p style="text-align: center; margin: 0; color: #ccc">Sigil resets erase almost all upgrades and resources, but
         you keep unlocks<br>&#8202;&#8202;(and your cactus king, because it's linked to your soul)</p>
       <p style="text-align: center; margin: 0; margin-top: 6px; color: #8bf">You have <a id="cyanSigilPower">0.00</a>
-        cyan sigil power (CSP) (<a id="cyanSigilPowerPerSecond">0.00</a>/s)</p>
+        Chopin's sigil power (CSP) (<a id="cyanSigilPowerPerSecond">0.00</a>/s)</p>
       <div
         style="width: 348px; position: absolute; bottom: 4px; left: 4px; display: grid; grid-template-columns: 1fr 1fr; justify-self: stretch">
         <button class="cyanSigilUpgrade" onclick="buyCyanSigilUpgrade(1)">Increase CSP gain<br>Currently x<a
@@ -454,64 +454,64 @@
             id="cyanSigilUpgrade2Effect">1.00</a><br>Costs <a id="cyanSigilUpgrade2Cost">20</a> CSP</button>
         <button class="cyanSigilUpgrade" onclick="buyCyanSigilUpgrade(3)">Increase cacti per second<br>Currently ^<a
             id="cyanSigilUpgrade3Effect">1.00</a><br>Costs <a id="cyanSigilUpgrade3Cost">500</a> CSP</button>
-        <button class="cyanSigilUpgrade" onclick="buyCyanSigilUpgrade(4)">Unlock <a style="color: #66f">blue
+        <button class="cyanSigilUpgrade" onclick="buyCyanSigilUpgrade(4)">Unlock <a style="color: #66f">Bach's
             Sigils</a><br>Costs 20,000 CSP</button>
       </div>
     </div>
   </div>
 
-  <!--Blue sigils tab-->
+  <!--Brouwer sigils tab-->
   <div class="window box" id="tab_blueSigils" style="width: 350px; height: 300px; background-color: #666; display: none;">
     <div class="title-bar" style="background:linear-gradient(90deg,#444,#00b)">
-      <div class="title-bar-text">Blue sigils</div>
+      <div class="title-bar-text">Brouwer's sigils</div>
     </div>
     <div class="window-body">
       <img src="img/iconSigil2.png" style="position: absolute; top: 26px; left: 8px; width: 64px"><br>
       <div style="margin-left: 76px; width: 268px; height: 60px">
         <p style="font-size: 16px; color: #aaf; text-shadow: 1px 1px #114; margin: 0; font-weight: bold">You have <a
-            id="blueSigils">0</a> blue sigils</p>
-        <p style="color: #aaf; text-shadow: 1px 1px #114; margin-left: 0; margin-top: 6px">Multiplying magic and score
+            id="blueSigils">0</a> Brouwer's sigils</p>
+        <p style="color: #aaf; text-shadow: 1px 1px #114; margin-left: 0; margin-top: 6px">Multiplying dirtball and score
           gain by <a id="blueSigilEffect">1</a></p>
       </div>
       <button style="width: 342px; margin: 4px; background-color: #aad; height: 32px; text-align: left"
-        onclick="sigilCheck(2)">Reset all previous progress for <a id="blueSigilsToGet">0</a> blue sigils<br>Next at
+        onclick="sigilCheck(2)">Reset all previous progress for <a id="blueSigilsToGet">0</a> Bach's sigils<br>Next at
         <a id="nextBlueSigil">1.00e8,000</a> cacti</button>
       <p style="text-align: center; margin: 0; color: #ccc">&#8202;&#8202;(Sigil resets don't erase your other sigils
         or sigil upgrades)</p>
       <p style="text-align: center; margin: 0; margin-top: 6px; color: #aaf">You have <a id="blueSigilPower">0.00</a>
-        blue sigil power (BSP) (<a id="blueSigilPowerPerSecond">0.00</a>/s)</p>
+        Brouwer's sigil power (BSP) (<a id="blueSigilPowerPerSecond">0.00</a>/s)</p>
       <div
         style="width: 348px; position: absolute; bottom: 4px; left: 4px; display: grid; grid-template-columns: 1fr 1fr; justify-self: stretch">
         <button class="blueSigilUpgrade" onclick="buyBlueSigilUpgrade(1)">Increase BSP gain<br>Currently x<a
             id="blueSigilUpgrade1Effect">1.00</a><br>Costs <a id="blueSigilUpgrade1Cost">1</a> BSP</button>
-        <button class="blueSigilUpgrade" onclick="buyBlueSigilUpgrade(2)">Increase platinum gain<br>Currently x<a
+        <button class="blueSigilUpgrade" onclick="buyBlueSigilUpgrade(2)">Increase music notes gain<br>Currently x<a
             id="blueSigilUpgrade2Effect">1.00</a><br>Costs <a id="blueSigilUpgrade2Cost">20</a> BSP</button>
-        <button class="blueSigilUpgrade" onclick="buyBlueSigilUpgrade(3)">Cyan sigil requirement is lower (<a
+        <button class="blueSigilUpgrade" onclick="buyBlueSigilUpgrade(3)">Chopin's sigil requirement is lower (<a
             id="blueSigilUpgrade3Bought">0</a>/10)<br>Costs <a id="blueSigilUpgrade3Cost">100</a> BSP</button>
-        <button class="blueSigilUpgrade" onclick="buyBlueSigilUpgrade(4)">Unlock <a style="color: #84f">Indigo
+        <button class="blueSigilUpgrade" onclick="buyBlueSigilUpgrade(4)">Unlock <a style="color: #84f">
             Sigils</a><br>Costs 10,000 BSP</button>
       </div>
     </div>
   </div>
 
-  <!--Indigo sigils tab-->
+  <!--LLobet's sigils tab-->
   <div class="window box" id="tab_indigoSigils" style="width: 350px; height: 300px; background-color: #666; display: none;">
     <div class="title-bar" style="background:linear-gradient(90deg,#444,#40b)">
-      <div class="title-bar-text">Indigo sigils</div>
+      <div class="title-bar-text">Llobet's sigils</div>
     </div>
     <div class="window-body">
       <img src="img/iconSigil3.png" style="position: absolute; top: 26px; left: 8px; width: 64px"><br>
       <div style="margin-left: 76px; width: 268px; height: 60px">
         <p style="font-size: 16px; color: #baf; text-shadow: 1px 1px #114; margin: 0; font-weight: bold">You have <a
-            id="indigoSigils">0</a> indigo sigils</p>
+            id="indigoSigils">0</a> Llobet's sigils</p>
         <p style="color: #baf; text-shadow: 1px 1px #214; margin-left: 0; margin-top: 6px">Multiplying dirtball and score
           gain by <a id="indigoSigilEffect">1</a></p>
       </div>
       <button style="width: 342px; margin: 4px; background-color: #a9d; height: 32px; text-align: left"
-        onclick="sigilCheck(3)">Reset all previous progress for <a id="indigoSigilsToGet">0</a> indigo sigils<br>Next
+        onclick="sigilCheck(3)">Reset all previous progress for <a id="indigoSigilsToGet">0</a> Llobet's sigils<br>Next
         at <a id="nextIndigoSigil">1.00e16,000</a> cacti</button>
       <p style="text-align: center; margin: 0; margin-top: 6px; color: #baf">You have <a
-          id="indigoSigilPower">0.00</a> indigo sigil power (ISP) (<a id="indigoSigilPowerPerSecond">0.00</a>/s)</p>
+          id="indigoSigilPower">0.00</a> Llobet sigil power (ISP) (<a id="indigoSigilPowerPerSecond">0.00</a>/s)</p>
       <div
         style="width: 348px; position: absolute; bottom: 4px; left: 4px; display: grid; grid-template-columns: 1fr 1fr; justify-self: stretch">
         <button class="indigoSigilUpgrade" onclick="buyIndigoSigilUpgrade(1)">Increase ISP gain<br>Currently x<a
@@ -519,43 +519,43 @@
         <button class="indigoSigilUpgrade" onclick="buyIndigoSigilUpgrade(2)">Increase CSP gain again<br>Currently ^<a
             id="indigoSigilUpgrade2Effect">1.00</a><br>Costs <a id="indigoSigilUpgrade2Cost">20</a> ISP</button>
         <button class="indigoSigilUpgrade" onclick="buyIndigoSigilUpgrade(3)">Gain more time with your
-          dragon<br>Currently x<a id="indigoSigilUpgrade3Effect">1.00</a><br>Costs <a
+          cactus king<br>Currently x<a id="indigoSigilUpgrade3Effect">1.00</a><br>Costs <a
             id="indigoSigilUpgrade3Cost">400</a> ISP</button>
-        <button class="indigoSigilUpgrade" onclick="buyIndigoSigilUpgrade(4)">Unlock <a style="color: #b2f">Violet
+        <button class="indigoSigilUpgrade" onclick="buyIndigoSigilUpgrade(4)">Unlock <a style="color: #b2f">Vivaldi's
             Sigils</a><br>Costs 20,000 ISP</button>
       </div>
     </div>
   </div>
 
-  <!--Violet sigils tab-->
+  <!--Villa lobos sigils tab-->
   <div class="window box" id="tab_violetSigils" style="width: 350px; height: 300px; background-color: #666; display: none;">
     <div class="title-bar" style="background:linear-gradient(90deg,#444,#60b)">
-      <div class="title-bar-text">Violet sigils</div>
+      <div class="title-bar-text">Villa lobos' sigils</div>
     </div>
     <div class="window-body">
       <img src="img/iconSigil4.png" style="position: absolute; top: 26px; left: 8px; width: 64px"><br>
       <div style="margin-left: 76px; width: 268px; height: 60px">
-        <p style="font-size: 16px; color: #b8f; text-shadow: 1px 1px #204; margin: 0; font-weight: bold">You have <a id="violetSigils">0</a> violet sigils</p>
+        <p style="font-size: 16px; color: #b8f; text-shadow: 1px 1px #204; margin: 0; font-weight: bold">You have <a id="violetSigils">0</a> Villa lobos' sigils</p>
         <p style="color: #b8f; text-shadow: 1px 1px #204; margin-left: 0; margin-top: 6px">Multiplying dirtball and score gain by <a id="violetSigilEffect">1</a></p>
       </div>
-      <button style="width: 342px; margin: 4px; background-color: #b9d; height: 32px; text-align: left" onclick="sigilCheck(4)">Reset all previous progress for <a id="violetSigilsToGet">0</a> violet sigils<br>Next at <a id="nextVioletSigil">1.00e30,000</a> cacti</button>
-      <p style="text-align: center; margin: 0; margin-top: 6px; color: #b8f">You have <a id="violetSigilPower">0.00</a> violet sigil power (VSP) (<a id="violetSigilPowerPerSecond">0.00</a>/s)</p>
+      <button style="width: 342px; margin: 4px; background-color: #b9d; height: 32px; text-align: left" onclick="sigilCheck(4)">Reset all previous progress for <a id="violetSigilsToGet">0</a> Villa Lobos' sigils<br>Next at <a id="nextVioletSigil">1.00e30,000</a> cacti</button>
+      <p style="text-align: center; margin: 0; margin-top: 6px; color: #b8f">You have <a id="violetSigilPower">0.00</a> Villa Lobos' sigil power (VSP) (<a id="violetSigilPowerPerSecond">0.00</a>/s)</p>
       <div
         style="width: 348px; position: absolute; bottom: 4px; left: 4px; display: grid; grid-template-columns: 1fr 1fr; justify-self: stretch">
         <button class="violetSigilUpgrade" onclick="buyVioletSigilUpgrade(1)">Increase VSP gain<br>Currently x<a id="violetSigilUpgrade1Effect">1.00</a><br>Costs <a id="violetSigilUpgrade1Cost">1</a> VSP</button>
         <button class="violetSigilUpgrade" onclick="buyVioletSigilUpgrade(2)">Increase BSP gain again<br>Currently ^<a id="violetSigilUpgrade2Effect">1.00</a><br>Costs <a id="violetSigilUpgrade2Cost">5</a> VSP</button>
-        <button class="violetSigilUpgrade" onclick="buyVioletSigilUpgrade(3)">Magifold effect is boosted again<br>Costs 5,000 VSP</button>
+        <button class="violetSigilUpgrade" onclick="buyVioletSigilUpgrade(3)">Garage time effect is boosted again<br>Costs 5,000 VSP</button>
         <button class="violetSigilUpgrade" onclick="buyVioletSigilUpgrade(4)">Unlock <a style="color: #d4d">Pink
             Sigils</a><br>Costs 10,000,000 VSP</button>
       </div>
     </div>
   </div>
 
-  <!--The horror-->
+  <!--SHREK-->
   <!--Someday I will move this! Unfotunately the tabs have to stay in the order I added them-->
   <div class="window box" style="width: 200px; top: 55px; left: 5px; transform: none; z-index: 1; display: none">
     <div class="title-bar" style="background: linear-gradient(90deg,#800000,#ad5a5a)">
-      <div class="title-bar-text">LIVE HORROR CAM</div>
+      <div class="title-bar-text">LIVE SHREK CAM</div>
       <div class="title-bar-controls">
         <button aria-label="Close" style="background-image: url('img/close.svg'); background-repeat: no-repeat; background-position: 3px 3px" onclick="changeTab(0)"></button>
       </div>
@@ -565,10 +565,10 @@
 		</div>
 	</div>
 
-  <!--Pink sigils tab-->
+  <!--Ponce sigils tab-->
   <div class="window box" id="tab_pinkSigils" style="width: 350px; height: 300px; background-color: #666; display: none;">
     <div class="title-bar" style="background:linear-gradient(90deg,#444,#b0b)">
-      <div class="title-bar-text">Pink sigils</div>
+      <div class="title-bar-text">Ponce's sigils</div>
     </div>
     <div class="window-body">
       <img src="img/iconSigil5.png" style="position: absolute; top: 26px; left: 8px; width: 64px"><br>
@@ -576,11 +576,11 @@
         <p style="font-size: 16px; color: #d8d; text-shadow: 1px 1px #404; margin: 0; font-weight: bold">You have <a id="pinkSigils">0</a> pink sigils</p>
         <p style="color: #d8d; text-shadow: 1px 1px #404; margin-left: 0; margin-top: 6px">Multiplying dirtball and score gain by <a id="pinkSigilEffect">1</a></p>
       </div>
-      <button style="width: 342px; margin: 4px; background-color: #c8c; height: 32px; text-align: left" onclick="sigilCheck(5)">Reset all previous progress for <a id="pinkSigilsToGet">0</a> pink sigils<br>Next at <a id="nextPinkSigil">1.00e300,000</a> cacti</button>
-      <p style="text-align: center; margin: 0; margin-top: 6px; color: #c8c">You have <a id="pinkSigilPower">0.00</a> pink sigil power (PSP) (<a id="pinkSigilPowerPerSecond">0.00</a>/s)</p>
+      <button style="width: 342px; margin: 4px; background-color: #c8c; height: 32px; text-align: left" onclick="sigilCheck(5)">Reset all previous progress for <a id="pinkSigilsToGet">0</a> Ponce's sigils<br>Next at <a id="nextPinkSigil">1.00e300,000</a> cacti</button>
+      <p style="text-align: center; margin: 0; margin-top: 6px; color: #c8c">You have <a id="pinkSigilPower">0.00</a> Ponce's sigil power (PSP) (<a id="pinkSigilPowerPerSecond">0.00</a>/s)</p>
       <div style="width: 348px; position: absolute; bottom: 4px; left: 4px; display: grid; grid-template-columns: 1fr 1fr; justify-self: stretch">
         <button class="pinkSigilUpgrade" onclick="buyPinkSigilUpgrade(1)">Increase PSP gain<br>Currently x<a id="pinkSigilUpgrade1Effect">1.00</a><br>Costs <a id="pinkSigilUpgrade1Cost">1</a> PSP</button>
-        <button class="pinkSigilUpgrade" onclick="buyPinkSigilUpgrade(2)">Unlock 2 new dark magic upgrades (kept
+        <button class="pinkSigilUpgrade" onclick="buyPinkSigilUpgrade(2)">Unlock 2 new dark dirtball upgrades (kept
           on sigil reset)<br>Costs 100,000 PSP</button>
         <button class="pinkSigilUpgrade" onclick="buyPinkSigilUpgrade(3)">Increase score gain<br>Currently ^<a
             id="pinkSigilUpgrade3Effect">1.00</a><br>Costs <a id="pinkSigilUpgrade3Cost">500,000</a> PSP</button>
