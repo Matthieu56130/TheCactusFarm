@@ -61,14 +61,14 @@ const achievementNames = [
   ["Garage Guru", "Mechanic Master", "Garage Genius", "Tool Time Titan", "Garage Gladiator", "Wrench Wizard", "Garage Gambit", "Fix-It Phenom", "Garage Guardian", "Repair Ruler", "Garage Grandmaster", "Garage time"],
   //Guitar
   ["Strumming", "Plucking", "Shredding", "Jamming", "Riffing", "Soloing", "Tuning", "Rocking", "Striking a Chord", "Harmonizing", "Fretting", "Amplifying"],
-  //Cyan sigils
-  ["Chromatic", "Chaotic", "Colorific", "Catastrophic", "Catatonic", "Chromatic II", "Chaotic II", "Colorific II", "Catastrophic II", "Catatonic II", "Chromatic III", "Chaotic III"],
-  //Blue sigils
-  ["Bichromatic", "Basic", "Biologic", "Barbaric", "Balsamic", "Bichromatic II", "Basic II", "Biologic II", "Barbaric II", "Balsamic II", "Bichromatic III", "Basic III"],
-  //Indigo sigils
-  ["Interdynamic", "Idealistic", "Isotropic", "Isotonic", "Idyllic", "Interdynamic II", "Idealistic II", "Isotropic II", "Isotonic II", "Idyllic II", "Interdynamic III", "Idealistic III"],
-  //Violet sigils
-  ["Volcanic", "Volumetric", "Vitriolic", "Voltaic", "Vinic", "Volcanic II", "Volumetric II", "Vitrolic II", "Voltaic II", "Vinic II", "Volcanic III", "Volumetric III"],
+  //Chopin's sigils
+  ["Chopin's Charm", "Chopin's Crescendo", "Chopin's Caprice", "Chopin's Cadence", "Chopin's Composition", "Chopin's Conductor", "Chopin's Concerto", "Chopin's Chord", "Chopin's Symphony", "Chopin's Sonata", "Chopin's Prelude", "Chopin's Etude"],
+  //Brouwer's sigils
+  ["Estudios sencillos", "El Decamerón Negro", "Elogio de la danza", "Danza del altiplano", "Sonata del Caminante", "Cantilena de los bosques", "Ritas de los orishas", "La Gran Sarabanda", "Elogio de la meditación", "Hika", "El arpa y la sombra", "Giants in the Forest"],
+  //Llobet's sigils
+  ["Plany ", "La filla del marxant", "El testament d'Amèlia", "Cançó del lladre", "Lo rossinyol", "Lo fill del rei", "L'hereu Riera", "El mestre", "La filadora", "La presó de Lleida", "La Nit de Nadal", "El noi de la Mare"],
+  //Villa lobo's sigils
+  ["Chôros No. 1", "Mazurka-Choro", "Schottisch-Choro", "Valse-Choro", "Gavotte-Choro", "Prélude No. 1", "Prélude No. 2", "Prélude No. 3", "Prélude No. 4", "Prélude No. 5", "Étude No. 12", "Étude No. 10"],
   //Pink sigils
   ["Panchromatic", "Psychotic", "Pathogenic", "Particularistic", "Platonic", "Panchromatic II", "Psychotic II", "Pathogenic II", "Particularistic II", "Platonic II", "Panchromatic III", "Psychotic III"],
   //Knowledge
@@ -167,21 +167,21 @@ const achievementRewards = {
   ach5x2: "Unlock Max All button for guitar upgrades!",
   ach5x3: "Automatically gain guitar without resetting!",
   //cyan sigils
-  ach6x0: "Automatically spend time with your dragon when available! Also allows you to enter challenges while on cooldown.",
-  ach6x1: "Feeding your dragon reduces scores by ^0.5 instead of resetting them!",
-  ach6x2: "Automatically max all fire upgrades!",
+  ach6x0: "Automatically spend time with your cactus king when available! Also allows you to enter challenges while on cooldown.",
+  ach6x1: "Feeding your cactus king reduces scores by ^0.5 instead of resetting them!",
+  ach6x2: "Automatically max all thorn upgrades!",
   //blue sigils
-  ach7x0: "Feeding your dragon no longer reduces challenge scores!",
+  ach7x0: "Feeding your cactus king no longer reduces challenge scores!",
   ach7x1: "Gain challenge score without entering challenges! Also, sigil resets no longer reduce challenge scores.",
-  ach7x2: "Keep platinum upgrades on sigil resets!",
+  ach7x2: "Keep music notes upgrades on sigil resets!",
   //indigo sigils
-  ach8x0: "Keep uranium upgrades on magic and sigil resets!",
+  ach8x0: "Keep guitar upgrades on magic and sigil resets!",
   //violet sigils
-  ach9x0: "Unlock the ability to pet your dragon! :O",
+  ach9x0: "Unlock the ability to pet your cactus king! :O",
   //pink sigils
-  ach10x0: "Automatically feed your dragon when available!",
+  ach10x0: "Automatically feed your cactus king when available!",
   ach10x1: "Unlock Max All button for sigil upgrades!",
-  ach10x2: "Keep all magic and dark magic upgrades on sigil reset!",
+  ach10x2: "Keep all dirtball and dark dirtball upgrades on sigil reset!",
   //knowledge
   ach11x0: "Unlock some automation for sigil resets!",
   ach11x7: "Automatically max all knowledge upgrades!",
@@ -235,10 +235,10 @@ const achievementResources = [
   {name:"dirtball", shortName:"Dirtball", internalName:"magic"},
   {name:"garage", shortName:"Garage", internalName:"magifolds"},
   {name:"guitar", shortName:"Guitar", internalName:"uranium"},
-  {name:"cyan sigils", shortName:"C-sigils", internalName:"cyanSigils"},
-  {name:"blue sigils", shortName:"&#8202;&#8202;B-sigils", internalName:"blueSigils"},
-  {name:"indigo sigils", shortName:"&#8202;&#8202;I-sigils", internalName:"indigoSigils"},
-  {name:"violet sigils", shortName:"&#8202;&#8202;V-sigils", internalName:"violetSigils"},
+  {name:"Chopin's sigils", shortName:"C-sigils", internalName:"cyanSigils"},
+  {name:"Brouwer's sigils", shortName:"&#8202;&#8202;B-sigils", internalName:"blueSigils"},
+  {name:"Llobet's sigils", shortName:"&#8202;&#8202;I-sigils", internalName:"indigoSigils"},
+  {name:"Villa Lobos's sigils", shortName:"&#8202;&#8202;V-sigils", internalName:"violetSigils"},
   {name:"pink sigils", shortName:"P-sigils", internalName:"pinkSigils"},
   {name:"knowledge", shortName:"&#8202;&#8202;Knwlege", internalName:"knowledge"},
   {name:"total tomes", shortName:"&#8202;&#8202;Tomes", internalName:"totalTomes"},
