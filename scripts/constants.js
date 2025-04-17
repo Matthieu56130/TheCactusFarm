@@ -82,9 +82,9 @@ const achievementNames = [
   //Plutonium
   ["Ionizing II", "Radiating II", "Neutralizing II", "Terrifying II", "Devastating II", "Decaying II", "Annihilating II", "Obliterating II", "Glowing II", "Reducing II", "Inspiring II", "Ending II"],
   //Regondi sigils
-  ["Rhythmic", "Realistic", "Robotic", "Romantic", "Relativistic", "Rhythmic II", "Realistic II", "Robotic II", "Romantic II", "Relativistic II", "Rhythmic III", "Realistic III"],
-  //Orange sigils
-  ["Organic", "Orthographic", "Overenergetic", "Orthochromatic", "Overchromatic", "Organic II", "Orthographic II", "Overenergetic II", "Orthochromatic II", "Overchromatic II", "Organic III", "Orthographic III"],
+  ["Etude No. 1", "Etude No. 2", "Etude No. 3", "Etude No. 4", "Reverie", "Air Varié de l’opéra de Bellini 'I Capuleti e i Montecchi", "Air Varié No. 1, Op. 22", "Air Varié No. 2, Op. 22", "Fête Villageoise, Rondo Caprice, Op. 20", "Nocturne 'Rêverie', Op. 19", "Etude 5", "Introduction et Caprice, Op. 23"],
+  //Assad's sigils
+  ["24 Preludios Chopinianos", "The Walls", "Lauro's Portrait", "Anido's Portrait", "Phases", "Originis", "Interchange", "Scarecrow", "Mikis", "Fantasia Carioca", "Tahhiyya Li Ossoulina", "Aquarelle"],
   //Takemitsu sigils
   ["Yellow", "Very yellow", "Extremely yellow", "Super yellow", "Hyper yellow", "Yellow II", "Very yellow II", "Extremely yellow II", "Super yellow II", "Hyper yellow II", "Yellow III", "Very yellow III"],
   //Holy tetrahedrons
