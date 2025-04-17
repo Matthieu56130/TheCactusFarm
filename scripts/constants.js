@@ -69,8 +69,8 @@ const achievementNames = [
   ["Plany ", "La filla del marxant", "El testament d'Amèlia", "Cançó del lladre", "Lo rossinyol", "Lo fill del rei", "L'hereu Riera", "El mestre", "La filadora", "La presó de Lleida", "La Nit de Nadal", "El noi de la Mare"],
   //Villa lobo's sigils
   ["Chôros No. 1", "Mazurka-Choro", "Schottisch-Choro", "Valse-Choro", "Gavotte-Choro", "Prélude No. 1", "Prélude No. 2", "Prélude No. 3", "Prélude No. 4", "Prélude No. 5", "Étude No. 12", "Étude No. 10"],
-  //Pink sigils
-  ["Panchromatic", "Psychotic", "Pathogenic", "Particularistic", "Platonic", "Panchromatic II", "Psychotic II", "Pathogenic II", "Particularistic II", "Platonic II", "Panchromatic III", "Psychotic III"],
+  //Ponce sigils
+  ["Sonatina Meridional", "Variations and fugue on la Folia", "Concierto del Sur", "Tres Canciones Populares Mexicanas", "Scherzino Mexicano", "Sonata III", "Preludio", "Estudio", "Tema Variado y Final", "Suite en estilo antiguo", "Sonata romantica", "Sonata Clásica"],
   //Knowledge
   ["Big brain moment", "Deep thought", "Immaterialistic", "Planning ahead", "I conject", "Megamind", "Incremental IQ", "Shared Brainpower", "Think tank", "Intelligence singularity", "The thinker", "Epistemological"],
   //Tomes
@@ -81,11 +81,11 @@ const achievementNames = [
   ["Coagulation", "Brutal", "Rivers of red", "Ultraviolent", "Turbo killer", "When the imposter is sus!", "Hellstar Remina", "Fresh", "Hemocytes", "Bloody brilliant", "Vampirism", "Unending bloodlust"],
   //Plutonium
   ["Ionizing II", "Radiating II", "Neutralizing II", "Terrifying II", "Devastating II", "Decaying II", "Annihilating II", "Obliterating II", "Glowing II", "Reducing II", "Inspiring II", "Ending II"],
-  //Red sigils
+  //Regondi sigils
   ["Rhythmic", "Realistic", "Robotic", "Romantic", "Relativistic", "Rhythmic II", "Realistic II", "Robotic II", "Romantic II", "Relativistic II", "Rhythmic III", "Realistic III"],
   //Orange sigils
   ["Organic", "Orthographic", "Overenergetic", "Orthochromatic", "Overchromatic", "Organic II", "Orthographic II", "Overenergetic II", "Orthochromatic II", "Overchromatic II", "Organic III", "Orthographic III"],
-  //Yellow sigils
+  //Takemitsu sigils
   ["Yellow", "Very yellow", "Extremely yellow", "Super yellow", "Hyper yellow", "Yellow II", "Very yellow II", "Extremely yellow II", "Super yellow II", "Hyper yellow II", "Yellow III", "Very yellow III"],
   //Holy tetrahedrons
   ["ï½¢Made in Heavenï½£", "Resets all the way down", "Cloudy with a chance of numbers", "God rays", "Heaven sent", "Convex complex", "Irreducable", "Non-Euclidean", "Pyraminx", "Alien architecture", "Caution: sharp", "Tetramazing"],
@@ -237,7 +237,7 @@ const achievementResources = [
   {name:"guitar", shortName:"Guitar", internalName:"uranium"},
   {name:"Chopin's sigils", shortName:"C-sigils", internalName:"cyanSigils"},
   {name:"Brouwer's sigils", shortName:"&#8202;&#8202;B-sigils", internalName:"blueSigils"},
-  {name:"Llobet's sigils", shortName:"&#8202;&#8202;I-sigils", internalName:"indigoSigils"},
+  {name:"Llobet's sigils", shortName:"&#8202;&#8202;L-sigils", internalName:"indigoSigils"},
   {name:"Villa Lobos's sigils", shortName:"&#8202;&#8202;V-sigils", internalName:"violetSigils"},
   {name:"pink sigils", shortName:"P-sigils", internalName:"pinkSigils"},
   {name:"knowledge", shortName:"&#8202;&#8202;Knwlege", internalName:"knowledge"},
