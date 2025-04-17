@@ -205,28 +205,28 @@ function dragonPet() {
   if (game.dragonPets == 0 && game.cyanSigils.gte(250)) {
     game.cyanSigils = game.cyanSigils.sub(250)
     game.dragonPets++
-    document.getElementById("dragonPetRequirement").innerHTML = "blue"
+    document.getElementById("dragonPetRequirement").innerHTML = "Brouwer"
     document.getElementById("dragonPets").innerHTML = game.dragonPets
     document.getElementById("dragonPetEffect").textContent = format(new Decimal(5).pow(game.dragonPets ** 0.5), 2)
   }
   else if (game.dragonPets == 1 && game.blueSigils.gte(250)) {
     game.blueSigils = game.blueSigils.sub(250)
     game.dragonPets++
-    document.getElementById("dragonPetRequirement").innerHTML = "indigo"
+    document.getElementById("dragonPetRequirement").innerHTML = "Llobet"
     document.getElementById("dragonPets").innerHTML = game.dragonPets
     document.getElementById("dragonPetEffect").textContent = format(new Decimal(5).pow(game.dragonPets ** 0.5), 2)
   }
   else if (game.dragonPets == 2 && game.indigoSigils.gte(250)) {
     game.indigoSigils = game.indigoSigils.sub(250)
     game.dragonPets++
-    document.getElementById("dragonPetRequirement").innerHTML = "violet"
+    document.getElementById("dragonPetRequirement").innerHTML = "Villa Lobos"
     document.getElementById("dragonPets").innerHTML = game.dragonPets
     document.getElementById("dragonPetEffect").textContent = format(new Decimal(5).pow(game.dragonPets ** 0.5), 2)
   }
   else if (game.dragonPets == 3 && game.violetSigils.gte(250)) {
     game.violetSigils = game.violetSigils.sub(250)
     game.dragonPets++
-    document.getElementById("dragonPetRequirement").innerHTML = "pink"
+    document.getElementById("dragonPetRequirement").innerHTML = "Ponce"
     document.getElementById("dragonPets").innerHTML = game.dragonPets
     document.getElementById("dragonPetEffect").textContent = format(new Decimal(5).pow(game.dragonPets ** 0.5), 2)
   }
