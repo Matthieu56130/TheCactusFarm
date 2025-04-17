@@ -580,12 +580,12 @@ function loadGame(loadgame) {
   else {document.getElementById("minerAutoBuyMaxButton").textContent = "Auto max all: Off"}
   if (game.knowledgeAutoMaxAll) {document.getElementById("knowledgeAutoMaxAllButton").textContent = "Auto max all: On"}
   else {document.getElementById("knowledgeAutoMaxAllButton").textContent = "Auto max all: Off"}
-  if (game.dragonPets >= 5) {document.getElementById("dragonPetButton").textContent = "You have petted your dragon sufficiently."}
-  else if (game.dragonPets >= 4) {document.getElementById("dragonPetRequirement").textContent = "pink"}
-  else if (game.dragonPets >= 3) {document.getElementById("dragonPetRequirement").textContent = "violet"}
-  else if (game.dragonPets >= 2) {document.getElementById("dragonPetRequirement").textContent = "indigo"}
-  else if (game.dragonPets >= 1) {document.getElementById("dragonPetRequirement").textContent = "blue"}
-  else {document.getElementById("dragonPetRequirement").textContent = "cyan"}
+  if (game.dragonPets >= 5) {document.getElementById("dragonPetButton").textContent = "You have petted your cactus king sufficiently."}
+  else if (game.dragonPets >= 4) {document.getElementById("dragonPetRequirement").textContent = "Ponce"}
+  else if (game.dragonPets >= 3) {document.getElementById("dragonPetRequirement").textContent = "Villa Lobos"}
+  else if (game.dragonPets >= 2) {document.getElementById("dragonPetRequirement").textContent = "Llobet"}
+  else if (game.dragonPets >= 1) {document.getElementById("dragonPetRequirement").textContent = "Brouwer"}
+  else {document.getElementById("dragonPetRequirement").textContent = "Chopin"}
   if (game.dragonPets >= 5) document.getElementById("dragonPetButton").disabled = true
   document.getElementById("dragonPets").textContent = game.dragonPets
   document.getElementById("dragonPetEffect").textContent = format(new Decimal(5).pow(game.dragonPets ** 0.5), 2)
