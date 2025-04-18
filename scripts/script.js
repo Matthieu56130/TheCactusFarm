@@ -103,7 +103,7 @@ function reset() {
     confirmations: [true, true, true],
     achievementFlashActive: false,
     currentTab: 1,
-    dragonName: "Unnamed dragon",
+    dragonName: "Unnamed cactus king",
 
     sigilResetterActive: false,
     sigilResetterType: 0,
