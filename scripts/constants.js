@@ -71,10 +71,10 @@ const achievementNames = [
   ["Chôros No. 1", "Mazurka-Choro", "Schottisch-Choro", "Valse-Choro", "Gavotte-Choro", "Prélude No. 1", "Prélude No. 2", "Prélude No. 3", "Prélude No. 4", "Prélude No. 5", "Étude No. 12", "Étude No. 10"],
   //Ponce sigils
   ["Sonatina Meridional", "Variations and fugue on la Folia", "Concierto del Sur", "Tres Canciones Populares Mexicanas", "Scherzino Mexicano", "Sonata III", "Preludio", "Estudio", "Tema Variado y Final", "Suite en estilo antiguo", "Sonata romantica", "Sonata Clásica"],
-  //Knowledge
-  ["Big brain moment", "Deep thought", "Immaterialistic", "Planning ahead", "I conject", "Megamind", "Incremental IQ", "Shared Brainpower", "Think tank", "Intelligence singularity", "The thinker", "Epistemological"],
-  //Tomes
-  ["History locked away", "The mystical bookshelf", "Necronomicon", "Fully legible", "Biblical", "Rune rooms", "Library of babel", "Recursive knowledge", "No longer lost", "Athenaeum", "Bibliotech", "The face book"],
+  //Guitar skills
+  ["Fingerpicking", "Tremolo", "Rasgueado", "Arpeggio", "Legato", "Staccato", "Pizzicato", "Harmonics", "Barre Chord", "Glissando", "Vibrato", "Scordatura"],
+  //Professor man
+  ["Ducharme", "GFA winner", "Guitar teacher", "Heavy lesson", "Masterclass", "Concert", "Just a comment", "Well..not bad", "Are you sure ?", "Bad fingerings no ?", "Please work", "Completely roasted"],
   //Blue fire
   ["Burning cold", "Frostbite", "Tundra", "The burn that cures", "Hell frozen over", "Absolute Zero", "What's cooler than being cool?", "Kamchatka", "Superfluid", "Ice V", "You're pretty cool", "Endless blue flame"],
   //Blood
