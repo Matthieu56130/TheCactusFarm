@@ -241,7 +241,7 @@ const achievementResources = [
   {name:"Llobet's sigils", shortName:"&#8202;&#8202;L-sigils", internalName:"indigoSigils"},
   {name:"Villa Lobos's sigils", shortName:"&#8202;&#8202;V-sigils", internalName:"violetSigils"},
   {name:"Ponce's sigils", shortName:"P-sigils", internalName:"pinkSigils"},
-  {name:"Guitar skills", shortName:"&#8202;&#8202;Gskills", internalName:"knowledge"},
+  {name:"Knowledge", shortName:"&#8202;&#8202;K-ledge", internalName:"knowledge"},
   {name:"total professor man", shortName:"&#8202;&#8202;Jerome", internalName:"totalTomes"},
   {name:"blue fire", shortName:"&#8202;&#8202;B-fire", internalName:"blueFire"},
   {name:"blood", shortName:"Blood", internalName:"blood"},
