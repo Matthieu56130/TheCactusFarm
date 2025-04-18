@@ -619,7 +619,7 @@
     </div>
   </div>
 
-<!--Guitar skills tab-->
+<!--Knowledge tab-->
 <style>
   .knowledgeTradeInfo img {
     width: 20px;
@@ -629,12 +629,12 @@
 
 <div class="window box" id="tab_knowledge" style="width: 500px; height: 540px; background-color: #ba9; display: none;">
   <div class="title-bar">
-    <div class="title-bar-text">Guitar skills </div>
+    <div class="title-bar-text">Knowledge </div>
   </div>
   <div class="window-body">
-    <p class="titleText">You have <a id="knowledge">0</a> guitar skills</p>
-    <p style="margin-top: 4px">Highest ever: <a id="highestKnowledge">0</a><a id="knowledgePerSecond"></a><br>Your highest guitar skills is multiplying sigil gain by <a id="knowledgeSigilBoost">1.00</a></p>
-    <center><p>&#8202;&#8202;Guitar skills trades give you guitar skills, at the cost of some of your sigils.<br>&#8202;&#8202;A higher trade level gives you more guitar skills, at the cost of more sigils.<br><b>&#8202;&#8202;If you change the trade level, it won't apply until you purchase a trade!</b></p>
+    <p class="titleText">You have <a id="knowledge">0</a> knowledge</p>
+    <p style="margin-top: 4px">Highest ever: <a id="highestKnowledge">0</a><a id="knowledgePerSecond"></a><br>Your highest knowledge is multiplying sigil gain by <a id="knowledgeSigilBoost">1.00</a></p>
+    <center><p>&#8202;&#8202;Knowledge trades give you knowledge, at the cost of some of your sigils.<br>&#8202;&#8202;A higher trade level gives you more knowledge, at the cost of more sigils.<br><b>&#8202;&#8202;If you change the trade level, it won't apply until you purchase a trade!</b></p>
     <div class="field-row" style="width: 350px">
       <label for="knowledgeLevelRange">Trade level:</label>
       <input id="knowledgeLevelRange" type="range" min="1" max="3" value="1" oninput="updateKnowledgeTradeLevel(1)" />
@@ -642,7 +642,7 @@
     </div>
     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; justify-self: stretch;">
       <div class="knowledgeTradeDiv">
-        <p style="margin-top: 10px; margin-bottom: 0; font-weight: bold">Guitar skills trade 1</p>
+        <p style="margin-top: 10px; margin-bottom: 0; font-weight: bold">Knowledge trade 1</p>
         <p class="knowledgeTradeInfo" style="margin-top: 8px">Lv1 - 1 Guitar skills<br>Costs:<br>
           <img src="img/iconSigil20.png"> 100,000 Chopin's sigils<br>
           <img src="img/iconSigil21.png"> 40,000 Brouwer's sigils<br>
@@ -676,9 +676,9 @@
         <p>Guitar skills reward range for this trade level:<br>&#8202;&#8202;<img src="img/iconKnowledge.png"><a id="knowledgeTradeRewardRange">0-1</a></p>
       </div>
       <div>
-        <button class="knowledgeUpgrade" onclick="buyKnowledgeUpgrade(1)">Multiply guitar skills gain from trades<br>Currently x<a id="knowledgeUpgrade1Effect">1.00</a><br>Costs <a id="knowledgeUpgrade1Cost">20</a> guitar skills</button>
-        <button class="knowledgeUpgrade" onclick="buyKnowledgeUpgrade(2)">Increase guitar gain<br>Currently ^<a id="knowledgeUpgrade2Effect">1.00</a><br>Costs <a id="knowledgeUpgrade2Cost">50</a> guitar skills</button>
-        <button class="knowledgeUpgrade" style="height: 32px" onclick="buyKnowledgeUpgrade(3)">Unlock <b>Professor man</b><br>Costs 100,000 guitar skills</button>
+        <button class="knowledgeUpgrade" onclick="buyKnowledgeUpgrade(1)">Multiply knowledge gain from trades<br>Currently x<a id="knowledgeUpgrade1Effect">1.00</a><br>Costs <a id="knowledgeUpgrade1Cost">20</a> knowledge</button>
+        <button class="knowledgeUpgrade" onclick="buyKnowledgeUpgrade(2)">Increase guitar gain<br>Currently ^<a id="knowledgeUpgrade2Effect">1.00</a><br>Costs <a id="knowledgeUpgrade2Cost">50</a> knowledge</button>
+        <button class="knowledgeUpgrade" style="height: 32px" onclick="buyKnowledgeUpgrade(3)">Unlock <b>Professor man</b><br>Costs 100,000 knowledge</button>
       </div>
     </div>
     <button id="knowledgeMaxAllButton" onclick="knowledgeMaxAll()">Max all</button>
