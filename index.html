@@ -686,44 +686,7 @@
   </div>
 </div>
 
-  
-  <!--Sigil automation tab-->
-  <div class="window box" id="tab_sigilAutomation" style="width: 350px; height: 300px; background-color: #666; display: none;">
-    <div class="title-bar" style="background:linear-gradient(90deg,#444,#b06)">
-      <div class="title-bar-text">Sigil Automation</div>
-    </div>
-    <div class="window-body">
-      <div id="sigilResetAutomation" style="display: none;">
-        <p style="margin: 4px; font-weight: bold">Automatic sigil resetter</p>
-        <input type="checkbox" id="sigilResetterActive" onchange="updateSigilResetter()" tabindex="-1">
-        <label for="sigilResetterActive">Enabled</label> <br><br>
-        Colour: <select id="sigilResetterType" onchange="updateSigilResetter()" tabindex="-1">
-          <option>Cyan</option>
-          <option>Blue</option>
-          <option>Indigo</option>
-          <option>Violet</option>
-          <option>Pink</option>
-        </select><br>
-        <input type="checkbox" id="sigilResetterCycle" onchange="updateSigilResetter()" tabindex="-1">
-        <label for="sigilResetterCycle">Cycle Colour on Reset</label> <br>
-        <span id="sigilResetterCycleModeSpan" style="display:none">
-          <input type="checkbox" id="sigilResetterCycleMode" onchange="updateSigilResetter()" tabindex="-1">
-          <label for="sigilResetterCycleMode" >Cycle between Red/Orange/Yellow only</label> <br>
-        </span><br><br>
-        Mode: <select id="sigilResetterMode" onchange="updateSigilResetter(true)" tabindex="-1">
-          <option>Potential Sigil Amount</option>
-          <option>Gold Amount</option>
-          <option>Seconds Since Reset</option>
-        </select><br>
-        <input id="sigilResetterAmount" style="width: 200px; background-color: #cbc0b8; text-align: center; font-weight: bold" placeholder="amount" onchange="updateSigilResetter()" tabindex="-1"></input>
-      <br><br>
-      </div>
-      <button style="margin-top: 4px; display: block" onclick="maxAllSigilUpgrades()">Max cyan to pink sigil upgrades</button>
-      <button id="maxRedSigilUpgradesButton" style="margin-top: 4px; background-color: #d77; display: none" onclick="maxRedSigilUpgrades()">Max red sigil upgrades</button>
-      <button id="maxOrangeSigilUpgradesButton" style="margin-top: 4px; background-color: #da7; display: none" onclick="maxOrangeSigilUpgrades()">Max orange sigil upgrades</button>
-      <button id="maxYellowSigilUpgradesButton" style="margin-top: 4px; background-color: #dd7; display: none" onclick="maxYellowSigilUpgrades()">Max yellow sigil upgrades</button>
-    </div>
-  </div>
+ 
 
   <!--Professor man tab-->
   <div class="window box" id="tab_tomes" style="width: 400px; height: 540px; background-color: #988078; display: none;">
