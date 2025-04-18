@@ -1,23 +1,3 @@
-//changement des noms dans l'affichage
-document.addEventListener("DOMContentLoaded", function() {
-  // Remplacer les noms des sigils dans l'affichage
-  const replacements = {
-    "cyan": "Chopin's",
-    "blue": "Brouwer's",
-    "indigo": "Llobet's",
-    "violet": "Villa Lobos'",
-    "pink": "Ponce's",
-    "red": "Regondi's",
-    "orange": "Assad's",
-    "yellow": "Takemitsu's"
-  };
-
-  Object.keys(replacements).forEach(function(key) {
-    document.querySelectorAll(`[id*=${key}], [class*=${key}]`).forEach(function(element) {
-      element.innerHTML = element.innerHTML.replace(new RegExp(key, 'g'), replacements[key]);
-    });
-  });
-});
 
 //const arrays aren't actually constant but shhh
 //I am constantly suffering
